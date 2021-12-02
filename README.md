@@ -5,7 +5,14 @@
 Azienda ospitante: ICP Informatica<br>
 Referente aziendale: Franco Gambatesa<br>
 Nome progetto: MyEsperto<br>
-Dominio web: non ancora attivo<br>
+Dominio web: myesperto.gbsweb.online/gp2/<br>
+
+## Team HIMYT
+| *Digital Strategists* | *Frontend Developers* | *Backend Developers* |
+| ----------- | ----------- | ----------- |
+| Federico Leone | Gabriel Lunic Sergiu | Andrea Atzei |
+| Manuel Zagarini | Gianluca Formica | Simone Guglielmi |
+| Ilaria Torres | Youssef Eddahir | Wassim Mansoury |
 
 ## Macro descrizione del progetto
 Dal sito web del cliente: https://www.icpinformatica.it/software-gestionale-aziendale/<br>
