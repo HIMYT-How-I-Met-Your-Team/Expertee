@@ -28,3 +28,6 @@
 
 # ignore readme
 readme.md
+
+# ignore gitconfig
+*.gitconfig
