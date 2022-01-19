@@ -25,3 +25,6 @@
 
 # ignore OS files
 .DS_Store
+
+# ignore readme
+readme.md
