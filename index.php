@@ -5,7 +5,7 @@ $stylesList = [
     "navbar"
 ];
 $scriptsList = [
-    ["name" => "navbar", "isHeader" => true]
+    ["name" => "navbar", "onStartup" => true]
 ];
 
 get_head($stylesList, $scriptsList);
