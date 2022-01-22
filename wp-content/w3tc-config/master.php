@@ -59,7 +59,7 @@
         "\\bfound_rows\\(\\)"
     ],
     "docroot_fix.enable": false,
-    "lazyload.enabled": false,
+    "lazyload.enabled": true,
     "lazyload.threshold": "",
     "lazyload.process_img": true,
     "lazyload.process_background": true,
@@ -552,7 +552,7 @@
     "browsercache.cssjs.expires": true,
     "browsercache.cssjs.lifetime": 31536000,
     "browsercache.cssjs.nocookies": true,
-    "browsercache.cssjs.cache.control": false,
+    "browsercache.cssjs.cache.control": true,
     "browsercache.cssjs.cache.policy": "cache_public_maxage",
     "browsercache.cssjs.etag": true,
     "browsercache.cssjs.w3tc": false,
@@ -563,7 +563,7 @@
     "browsercache.html.last_modified": true,
     "browsercache.html.expires": false,
     "browsercache.html.lifetime": 3600,
-    "browsercache.html.cache.control": false,
+    "browsercache.html.cache.control": true,
     "browsercache.html.cache.policy": "cache_public_maxage",
     "browsercache.html.etag": true,
     "browsercache.html.w3tc": false,
@@ -574,7 +574,7 @@
     "browsercache.other.expires": true,
     "browsercache.other.lifetime": 31536000,
     "browsercache.other.nocookies": true,
-    "browsercache.other.cache.control": false,
+    "browsercache.other.cache.control": true,
     "browsercache.other.cache.policy": "cache_public_maxage",
     "browsercache.other.etag": true,
     "browsercache.other.w3tc": false,
@@ -865,7 +865,7 @@
             ]
         }
     },
-    "common.track_usage": false,
+    "common.track_usage": true,
     "common.tweeted": false,
     "config.check": true,
     "config.path": "",
@@ -899,5 +899,6 @@
     "imageservice": {
         "compression": "lossy",
         "auto": "enabled"
-    }
+    },
+    "lazyload_process_background": true
 }

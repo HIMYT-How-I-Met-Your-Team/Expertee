@@ -4,7 +4,7 @@
  * Plugin Name: Copy & Delete Posts
  * Plugin URI: https://copy-delete-posts.com
  * Description: The best solution to easily make duplicates of your posts & pages, and delete them in one go.
- * Version: 1.2.3
+ * Version: 1.2.4
  * Author: Copy Delete Posts
  * Author URI: https://copy-delete-posts.com/
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -30,11 +30,13 @@ analyst_init(array(
  * @since 1.0.0
  */
 // Plugin constants
-define('CDP_VERSION', '1.2.3');
+define('CDP_VERSION', '1.2.4');
 define('CDP_WP_VERSION', get_bloginfo('version'));
 define('CDP_SCRIPT_DEBUG', false);
 define('CDP_ROOT_DIR', __DIR__);
 define('CDP_ROOT_FILE', __FILE__);
+define('CDP_MODULES_DIR', CDP_ROOT_DIR . DIRECTORY_SEPARATOR . 'modules' . DIRECTORY_SEPARATOR);
+
 $cdp_plug_url = plugins_url('', __FILE__);
 
 load_plugin_textdomain('copy-delete-posts', null, dirname(plugin_basename(__FILE__)) . '/languages');
@@ -141,6 +143,17 @@ add_action('upgrader_process_complete', function () {
 			if (!(class_exists('Inisev\Subs\Inisev_Review') || class_exists('Inisev_Review'))) require_once CDP_ROOT_DIR . '/modules/review/review.php';
 			$review_banner = new \Inisev\Subs\Inisev_Review(CDP_ROOT_FILE, CDP_ROOT_DIR, 'copy-delete-posts', 'Copy & Delete Posts', 'https://bit.ly/2VeAf2E', 'copy-delete-posts');
 		}
+
+    // Deactivation module
+    $cdp_plugin_path = trailingslashit(basename(CDP_ROOT_DIR)) . basename(CDP_ROOT_FILE);
+    if (isset($GLOBALS['IIEV_PLUGINS_DEACTIVATION'])) {
+      if (is_array($GLOBALS['IIEV_PLUGINS_DEACTIVATION'])) $GLOBALS['IIEV_PLUGINS_DEACTIVATION'][] = $cdp_plugin_path;
+    } else {
+      if (!(class_exists('\Inisev\Subs\Inisev_Deactivation') || class_exists('Inisev\Subs\Inisev_Deactivation') || class_exists('Inisev_Deactivation'))) {
+        require_once CDP_MODULES_DIR . 'deactivation' . DIRECTORY_SEPARATOR . 'deactivation.php';
+      }
+      $deactivation_module = new \Inisev\Subs\Inisev_Deactivation($cdp_plugin_path, CDP_ROOT_DIR, CDP_ROOT_FILE);
+    }
 
 	});
 /** –– **/
