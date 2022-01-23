@@ -38,6 +38,7 @@ function get_head($styleArray, $scriptArray){
    echo("<!DOCTYPE html>");
    echo("<html>");
    echo("<head>");
+   echo("<meta name='viewport' content='width=device-width, initial-scale=1' />");
    foreach ($styleArray as $style){
       get_style($style);
    }

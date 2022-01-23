@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <header>
-        <div id="brand"><a href="#"><img src="<?php echo get_stylesheet_directory_uri();?>/img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
-        <div id="nav">
-            <a href="#contattaci"><span id="contattaci">CONTATTACI</span></a>
-            <a href="#chisiamo" >CHI SIAMO</a>
-            <a href="#incloud">INCLOUD</a>
-            <a href="#software">SOFTWARE</a>
-            <a href="#home">HOMEPAGE</a>
-        </div>
-        <div id="hamburger-menu" onclick="toggleMobileMenu(this)">
-            <div  id="hamburger-icon">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <div id="mobile-menu">
-                <a href="#home">HOMEPAGE</a>
-                <a href="#software">SOFTWARE</a>
-                <a href="#incloud">INCLOUD</a>
-                <a href="#chisiamo" >CHI SIAMO</a>
-                <a href="#contattaci"><span id="contattaci-hamburger">CONTATTACI</span></a>
-            </div>
-        </div>
-    </header>
 
     <section>
         <div id="section1homepage">
@@ -353,27 +323,4 @@
         </div>
     </section>
 
-    <footer>
-        <div>
-            <div id="footer-image">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/expertee-white.png" alt="logo expertee">
-            </div>
-            <div id="footer-contattaci">
-                <p>Contatti</p>
-                <p>+39 011.0437557</p>
-                <p>fixerp@icpinformatica.it</p>
-                <p>Partita Iva IT 11821700017</p>
-                <p>Corso Svizzera, 185 - 10149 Torino (TO)</p>
-            </div>
-            <div id="footer-end">
-                <p>EXPERTEE</p>
-                <a href="#">Blog</a><br>
-                <a href="#">Chi siamo</a><br>
-                <a href="#">FAQ</a><br>
-                <a href="#">Servizio assistenza</a><br>
-            </div>
-        </div>
-    </footer>
-
-  </body>
-</html>
+    
