@@ -14,7 +14,6 @@ $scriptsListOnFinish = [
     "slider"
 ];
 
-//get_head($stylesList, $scriptsList);
 get_header('', array( 'styles' => $stylesList, 'scripts' => $scriptsListOnStartup ));
 get_body($bodyName);
 get_footer('', array( 'scripts' => $scriptsListOnFinish));

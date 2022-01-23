@@ -19,13 +19,8 @@ function get_style($styleName){
    echo("<link rel='stylesheet' href='".get_stylesheet_directory_uri()."/styles/".$styleName.".css'>");
 }
 
-// prints the necessary code to include a JS script from the filename in the header
-function get_script_start($scriptName){
-   echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/scripts/'.$scriptName.'.js"></script>';
-}
-
-// prints the necessary code to include a JS script from the filename in the footer
-function get_script_end($scriptName){
+// prints the necessary code to include a JS script from the filename
+function get_script($scriptName){
    echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/scripts/'.$scriptName.'.js"></script>';
 }
 
@@ -37,14 +32,14 @@ function get_head($styleArray, $scriptArray){
       get_style($style);
    }
    foreach ($scriptArray as $script){
-      get_script_start($script); 
+      get_script($script); 
    }
 }
 
 // includes the required JS scripts
 function get_finish_scripts($scriptArray){
    foreach ($scriptArray as $script){
-      get_script_end($script); 
+      get_script($script); 
    }
 }
 
