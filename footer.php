@@ -1,4 +1,6 @@
-    </main>
+
+
+</main>
 
     <footer>
         <div>
@@ -21,3 +23,7 @@
             </div>
         </div>
     </footer>
+
+    <?php
+        get_finish_scripts($args['scripts']);
+    ?>

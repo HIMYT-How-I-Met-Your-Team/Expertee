@@ -6,14 +6,17 @@ $stylesList = [
     "homepage",
     "footer"
 ];
-$scriptsList = [
-    ["name" => "navbar", "onStartup" => false],
-    ["name" => "slider", "onStartup" => false]
+$scriptsListOnStartup = [
+    
+];
+$scriptsListOnFinish = [
+    "navbar",
+    "slider"
 ];
 
-get_head($stylesList, $scriptsList);
-get_header();
+//get_head($stylesList, $scriptsList);
+get_header('', array( 'styles' => $stylesList, 'scripts' => $scriptsListOnStartup ));
 get_body($bodyName);
-get_footer();
+get_footer('', array( 'scripts' => $scriptsListOnFinish));
 ?>
 

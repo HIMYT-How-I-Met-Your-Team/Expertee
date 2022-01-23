@@ -1,7 +1,6 @@
 <?php
 
 // default and necessary function to make the child-theme work
-add_action( 'wp_enqueue_scripts', 'twentyonechild_theme_enqueue_styles' );
 
 function twentyonechild_theme_enqueue_styles() {
    wp_enqueue_style( 'child-style', get_stylesheet_uri(),
@@ -27,30 +26,26 @@ function get_script_start($scriptName){
 
 // prints the necessary code to include a JS script from the filename in the footer
 function get_script_end($scriptName){
-   wp_enqueue_script('scriptName', get_stylesheet_directory_uri().'/scripts/'.$scriptName.'.js', 
-   array(), false, true);
+   echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/scripts/'.$scriptName.'.js"></script>';
 }
 
 
 
 // includes the required CSS styles and JS scripts and initializes the page
 function get_head($styleArray, $scriptArray){
-   echo("<!DOCTYPE html>");
-   echo("<html>");
-   echo("<head>");
-   echo("<meta name='viewport' content='width=device-width, initial-scale=1' />");
    foreach ($styleArray as $style){
       get_style($style);
    }
-   foreach ($scriptArray as ["name" => $script, "isHeader" => $isHeader]){
-      if($isHeader){
-         get_script_start($script); 
-      }
-      else{
-         get_script_end($script);
-      }
+   foreach ($scriptArray as $script){
+      get_script_start($script); 
    }
-   echo ("</head>");
+}
+
+// includes the required JS scripts
+function get_finish_scripts($scriptArray){
+   foreach ($scriptArray as $script){
+      get_script_end($script); 
+   }
 }
 
 // prints the body part from the name of its file (there can be more than one)
