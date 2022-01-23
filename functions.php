@@ -57,5 +57,4 @@ function get_body($pageName){
    include "pages/".$pageName.".php";
 }
 
-
 ?>
