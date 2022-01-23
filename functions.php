@@ -48,4 +48,19 @@ function get_body($pageName){
    include "pages/".$pageName.".php";
 }
 
+//inserts data inside the database
+function insert($data){
+   try{
+      if(!empty($data)){
+         if(!empty($_POST['email'])){
+            global $wpdb;
+            $table = $wpdb->prefix.'formdata';
+            $wpdb->insert($table,$data);
+         }
+      }
+   }catch(Exception $e){
+      echo 'Caught exception: ',  $e->getMessage(), "\n";
+   }
+}
+
 ?>

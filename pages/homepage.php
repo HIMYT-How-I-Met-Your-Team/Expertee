@@ -179,7 +179,7 @@
             <p>Campi obbligatori*</p>
             <!-- form -->
 
-            <form action="" method="POST" target="blank" action="#" id="form">
+            <form method="POST" target="blank" action="#" id="form">
                 <input type="text" name="nome" id="nome" placeholder="Nome*">
                 <input type="text" name="cognome" id="cognome" placeholder="Cognome*">
                 <input type="email" name="email" id="email" placeholder="Email*">
