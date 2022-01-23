@@ -179,27 +179,27 @@
             <p>Campi obbligatori*</p>
             <!-- form -->
 
-            <form action="" method="GET" target="blank" id="form">
+            <form action="" method="POST" target="blank" action="#" id="form">
                 <input type="text" name="nome" id="nome" placeholder="Nome*">
                 <input type="text" name="cognome" id="cognome" placeholder="Cognome*">
-                <input type="email" name="e-mail" id="email" placeholder="Email*">
-                <input type="text" name="numero" id="numero" placeholder="Telefono">
-                <select id="attivita">
-                    <option value="">Tipo di attività*</option>
-                    <option value="">Antintrusione</option>
-                    <option value="">Antincendio</option>
-                    <option value="">Edile</option>
-                    <option value="">Elettrico</option>
-                    <option value="">Elettrico/Impianti speciali</option>
-                    <option value="">Elevatori</option>
-                    <option value="">Idrico-sanitario</option>
-                    <option value="">Impianti speciali</option>
-                    <option value="">Meccanico/Idrico-sanitario</option>
-                    <option value="">Meccanico/Antincendio</option>
-                    <option value="">Meccanico/Elettrico</option>
+                <input type="email" name="email" id="email" placeholder="Email*">
+                <input type="text" name="telefono" id="numero" placeholder="Telefono">
+                <select id="attivita" name="attivita">
+                    <option value="none">Tipo di attività*</option>
+                    <option value="Antintrusione">Antintrusione</option>
+                    <option value="Antincendio">Antincendio</option>
+                    <option value="Edile">Edile</option>
+                    <option value="Elettrico">Elettrico</option>
+                    <option value="Elettrico/Impianti speciali">Elettrico/Impianti speciali</option>
+                    <option value="Elevatori">Elevatori</option>
+                    <option value="Idrico-sanitario">Idrico-sanitario</option>
+                    <option value="Impianti speciali">Impianti speciali</option>
+                    <option value="Meccanico/Idrico-sanitario">Meccanico/Idrico-sanitario</option>
+                    <option value="Meccanico/Antincendio">Meccanico/Antincendio</option>
+                    <option value="Meccanico/Elettrico">Meccanico/Elettrico</option>
                 </select>
-                <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*">
-                <input type="text" list="province" placeholder="Provincia*" id="provincia" />
+                <input type="text" name="ragSociale" id="ragione" placeholder="Ragione sociale*">
+                <input type="text" list="province" placeholder="Provincia*" id="provincia" name="provincia"/>
                 <datalist id="province">
                     <option>Agrigento</option>
                     <option>Alessandria</option>
@@ -312,12 +312,12 @@
                     <option>Vicenza</option>
                     <option>Viterbo</option>
                 </datalist>
-                <textarea name="messaggio" id="messaggio">Messaggio</textarea>
+                <textarea name="messaggio" id="messaggio" placeholder="Messaggio"></textarea>
 
                 <input type="checkbox" name="privacy" id="btnprivacy" required/>
                 <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
 
-                <button type="submit" id="submit" class="button" disabled>CONTATTACI</button>
+                <button type="submit" id="submit" class="button">CONTATTACI</button>
             </form>
             <!-- end form-->
         </div>
