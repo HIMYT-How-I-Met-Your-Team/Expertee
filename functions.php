@@ -52,7 +52,7 @@ function get_body($pageName){
 function insert($data){
    try{
       if(!empty($data)){
-         if(!empty($data['email'])){
+         if(!empty($data['email']) && !empty($data['email']) && !empty($data['nome']) && !empty($data['cognome']) && !empty($data['attivita']) && !empty($data['ragSociale']) && !empty($data['provincia'])){
             global $wpdb;
             $table = $wpdb->prefix.'formdata';
             $wpdb->insert($table,$data);
