@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="../styles/navbar.css">
+      <link rel="stylesheet" href="../styles/software.css">
+      <link rel="stylesheet" href="../styles/footer.css">
+  </head>
+  <body>
+    <header>
+        <div id="brand"><a href="#"><img src="../img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
+        <div id="nav">
+            <a href="#section9homepage"><span id="contattaci">CONTATTACI</span></a>
+            <a href="#chisiamo" >CHI SIAMO</a>
+            <a href="/development/pages/incloud.html">INCLOUD</a>
+            <a href="/development/pages/software.html">SOFTWARE</a>
+            <a href="/development/pages/homepage.html">HOMEPAGE</a>
+        </div>
+        <div id="hamburger-menu" onclick="toggleMobileMenu(this)">
+            <div  id="hamburger-icon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="mobile-menu">
+                <a href="/development/pages/homepage.html">HOMEPAGE</a>
+                <a href="/development/pages/software.html">SOFTWARE</a>
+                <a href="/development/pages/incloud.html">INCLOUD</a>
+                <a href="#chisiamo" >CHI SIAMO</a>
+                <a href="#section9homepage"><span id="contattaci-hamburger">CONTATTACI</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="section1homepage">
+            <p>SOFTWARE MANUTENZIONE</p>
+            <p>Gestionale significa ordine e risparmio</p>
+            <p><b>Expertee</b> integra con le sue funzionalità le esigenze specifiche della tua azienda.</p>
+            <p class="button"><a href="">RICHIEDI DEMO GRATUTITA</a></p>
+
+            <div id="freccetta">
+                <img src="../img/freccetta.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="section2homepage">
+            <p>Scopri le funzionalità</p>
+        </div>
+    </section>
+
+        <div id="breakimg-mobile1">
+            <img src="../img/software2.png" alt="">
+        </div>
+
+        <div id="breakimg-desktop1">
+            <img src="../img/software2Big.png" alt="">
+        </div>
+
+    <section>
+        <div id="section3homepage">
+            <p>Gestisci e Pianifica</p>
+            <p>
+                Attraverso il calendario puoi gestire: <br>
+                Risorse <br>
+                Conoscerai la posizione dei tuoi tecnici in tempo reale. <br>
+                Interventi<br>
+                Monitora lo stato di compilazione dei report, accellera il processo di fatturazione.<br>
+                Materiale<br>
+                Si potranno monitorare gli sprechi di magazzino impostando il materiale prelevato e usato dal tecnico.<br>
+            </p>
+            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+        </div>
+    </section>
+
+        <div id="breakimg-mobile2">
+            <img src="../img/software3.png" alt="">
+        </div>
+
+        <div id="breakimg-desktop2">
+            <img src="../img/software3Big.png" alt="">
+        </div>
+
+    <section>
+        <div id="section4homepage">
+            <p>Gestisci e Pianifica</p>
+            <p>
+                Puntualità e precisione<br>
+                Risorse <br>
+                Importi e scadenze<br>
+                Interventi<br>
+                Calendarizza gli interventi e le scadenze per ciascun tipo di cliente.<br>
+                Ricorrenze di fatturazione<br>
+                Automatizza le ricorrenze di intervento: Mensile, trimestrale, semestrale ecc.<br>
+                Ricorrenze di adeguamento<br>
+                Assegna gli interventi ai tecnici sul campo, verranno avvisati con una notifica sul loro dispositivo.<br>
+            </p>
+            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+        </div>
+    </section>
+
+    <div id="breakimg-mobile3">
+        <img src="../img/software4.png" alt="">
+    </div>
+
+    <div id="breakimg-desktop3">
+        <img src="../img/software4Big.png" alt="">
+    </div>
+    
+    <section> <!--copia della section 3 -->
+        <div id="section5homepage">
+            <p>Report in un click</p>
+            <p>
+                Con un click scarica i report delle fatture, pronte per le riunioni di monitoraggio:<br>
+                Risorse <br>
+                Periodo di tempo<br>
+                Su uno specifico periodo di tempo: mensile, trimestrale, semestrale, annuale ecc.<br>
+                Calendarizza gli interventi e le scadenze per ciascun tipo di cliente.<br>
+                Tipo di cliente<br>
+                Su una categoria di azienda o su uno specifico cliente.<br>
+                Importo<br>
+                Specifica il range di importo di tuo interesse.<br>
+            </p>
+            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+        </div>
+    </section>
+
+    <section>
+        <div id="section8homepage">
+            <p>Expertee sfrutta la tecnologia Incloud</p>
+            <p>Scopri come la tecnologia Incloud è perfetta per gestire la tua attività rispettandone le caratteristiche, e contenendo gli investimenti.</p>
+            <p class="button"><a href="">SCOPRI I VANTAGGI</a></p>
+        </div>
+    </section>
+
+    <section>
+        <div id="section9homepage">
+            <p>Contattaci per organizzare una demo gratuita</p>
+            <p>Inserisci i tuoi dati nel form e sarai ricontattato</p>
+            <p>Campi obbligatori*</p>
+            <!-- form -->
+
+            <form action="" method="GET" target="blank" id="form">
+                <div>
+                    <input type="text" name="nome" id="nome" placeholder="Nome*" required>
+                    <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
+                    <input type="email" name="e-mail" id="email" placeholder="Email*" required>
+                    <input type="text" name="numero" id="numero" placeholder="Telefono">
+                    <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*" required>
+                    <input type="text" list="province" placeholder="Provincia*" id="provincia" required/>
+                    <select id="attivita">
+                        <option value="">Tipo di attività*</option>
+                        <option value="">Antintrusione</option>
+                        <option value="">Antincendio</option>
+                        <option value="">Edile</option>
+                        <option value="">Elettrico</option>
+                        <option value="">Elettrico/Impianti speciali</option>
+                        <option value="">Elevatori</option>
+                        <option value="">Idrico-sanitario</option>
+                        <option value="">Impianti speciali</option>
+                        <option value="">Meccanico/Idrico-sanitario</option>
+                        <option value="">Meccanico/Antincendio</option>
+                        <option value="">Meccanico/Elettrico</option>
+                    </select>
+                    <datalist id="province">
+                        <option>Agrigento</option>
+                        <option>Alessandria</option>
+                        <option>Ancona</option>
+                        <option>Aosta</option>
+                        <option>Arezzo</option>
+                        <option>Ascoli Piceno</option>
+                        <option>Asti</option>
+                        <option>Avellino</option>
+                        <option>Bari</option>
+                        <option>Barletta-Andria-Trani</option>
+                        <option>Belluno</option>
+                        <option>Benevento</option>
+                        <option>Bergamo</option>
+                        <option>Biella</option>
+                        <option>Bologna</option>
+                        <option>Bolzano</option>
+                        <option>Brescia</option>
+                        <option>Brindisi</option>
+                        <option>Cagliari</option>
+                        <option>Caltanissetta</option>
+                        <option>Campobasso</option>
+                        <option>Carbonia-iglesias</option>
+                        <option>Caserta</option>
+                        <option>Catania</option>
+                        <option>Catanzaro</option>
+                        <option>Chieti</option>
+                        <option>Como</option>
+                        <option>Cosenza</option>
+                        <option>Cremona</option>
+                        <option>Crotone</option>
+                        <option>Cuneo</option>
+                        <option>Enna</option>
+                        <option>Fermo</option>
+                        <option>Ferrara</option>
+                        <option>Firenze</option>
+                        <option>Foggia</option>
+                        <option>Forl&igrave;-Cesena</option>
+                        <option>Frosinone</option>
+                        <option>Genova</option>
+                        <option>Gorizia</option>
+                        <option>Grosseto</option>
+                        <option>Imperia</option>
+                        <option>Isernia</option>
+                        <option>La spezia</option>
+                        <option>L'aquila</option>
+                        <option>Latina</option>
+                        <option>Lecce</option>
+                        <option>Lecco</option>
+                        <option>Livorno</option>
+                        <option>Lodi</option>
+                        <option>Lucca</option>
+                        <option>Macerata</option>
+                        <option>Mantova</option>
+                        <option>Massa-Carrara</option>
+                        <option>Matera</option>
+                        <option>Medio Campidano</option>
+                        <option>Messina</option>
+                        <option>Milano</option>
+                        <option>Modena</option>
+                        <option>Monza Brianza</option>
+                        <option>Napoli</option>
+                        <option>Novara</option>
+                        <option>Nuoro</option>
+                        <option>Ogliastra</option>
+                        <option>Olbia-Tempio</option>
+                        <option>Oristano</option>
+                        <option>Padova</option>
+                        <option>Palermo</option>
+                        <option>Parma</option>
+                        <option>Pavia</option>
+                        <option>Perugia</option>
+                        <option>Pesaro e Urbino</option>
+                        <option>Pescara</option>
+                        <option>Piacenza</option>
+                        <option>Pisa</option>
+                        <option>Pistoia</option>
+                        <option>Pordenone</option>
+                        <option>Potenza</option>
+                        <option>Prato</option>
+                        <option>Ragusa</option>
+                        <option>Ravenna</option>
+                        <option>Reggio Calabria</option>
+                        <option>Reggio Emilia</option>
+                        <option>Rieti</option>
+                        <option>Rimini</option>
+                        <option>Roma</option>
+                        <option>Rovigo</option>
+                        <option>Salerno</option>
+                        <option>Sassari</option>
+                        <option>Savona</option>
+                        <option>Siena</option>
+                        <option>Siracusa</option>
+                        <option>Sondrio</option>
+                        <option>Taranto</option>
+                        <option>Teramo</option>
+                        <option>Terni</option>
+                        <option>Torino</option>
+                        <option>Trapani</option>
+                        <option>Trento</option>
+                        <option>Treviso</option>
+                        <option>Trieste</option>
+                        <option>Udine</option>
+                        <option>Varese</option>
+                        <option>Venezia</option>
+                        <option>Verbano-Cusio-Ossola</option>
+                        <option>Vercelli</option>
+                        <option>Verona</option>
+                        <option>Vibo valentia</option>
+                        <option>Vicenza</option>
+                        <option>Viterbo</option>
+                    </datalist>
+                </div>
+                <textarea name="messaggio" id="messaggio">Messaggio</textarea>
+
+                <input type="checkbox" name="privacy" id="btnprivacy" required/>
+                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
+
+                <button type="submit" id="submit" class="button" disabled>CONTATTACI</button>
+            </form>
+            <!-- end form-->
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div id="footer-image">
+                <img src="../img/expertee-white.png" alt="logo expertee">
+            </div>
+            <div id="footer-contattaci">
+                <p>Contatti</p>
+                <p>+39 011.0437557</p>
+                <p>fixerp@icpinformatica.it</p>
+                <p>Partita Iva IT 11821700017</p>
+                <p>Corso Svizzera, 185 - 10149 Torino (TO)</p>
+            </div>
+            <div id="footer-end">
+                <p>EXPERTEE</p>
+                <a href="/development/pages/blog.html">Blog</a><br>
+                <a href="#">Chi siamo</a><br>
+                <a href="#">FAQ</a><br>
+                <a href="#">Servizio assistenza</a><br>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/slider.js"></script>
+  </body>
+</html>

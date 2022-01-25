@@ -43,3 +43,37 @@ footer a {
 footer a:hover {
   color: rgba(211, 52, 31, 1);
 }
+
+@media only screen and (min-width: 1250px) {
+
+  footer div {
+    width: 100%;
+  }
+  
+  #footer-contattaci {
+    width: calc(100% / 3);
+    margin: 0;
+    float: left;
+  }
+
+  #footer-end {
+    width: calc(100% / 3);
+    margin: 0;
+    float: left;
+  }
+
+  #footer-end p:first-child {
+    margin-top: 0;
+  }
+
+  #footer-image {
+    width: calc(100% / 3);
+    float: right;
+    margin: 0;
+  }
+
+  #footer-image img {
+    float: right;
+    margin-top: 100px;
+  }
+}

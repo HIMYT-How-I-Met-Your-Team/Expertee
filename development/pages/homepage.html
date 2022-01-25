@@ -10,11 +10,11 @@
     <header>
         <div id="brand"><a href="#"><img src="../img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
         <div id="nav">
-            <a href="#contattaci"><span id="contattaci">CONTATTACI</span></a>
+            <a href="#section9homepage"><span id="contattaci">CONTATTACI</span></a>
             <a href="#chisiamo" >CHI SIAMO</a>
-            <a href="#incloud">INCLOUD</a>
-            <a href="#software">SOFTWARE</a>
-            <a href="#home">HOMEPAGE</a>
+            <a href="/development/pages/incloud.html">INCLOUD</a>
+            <a href="/development/pages/software.html">SOFTWARE</a>
+            <a href="/development/pages/homepage.html">HOMEPAGE</a>
         </div>
         <div id="hamburger-menu" onclick="toggleMobileMenu(this)">
             <div  id="hamburger-icon">
@@ -23,11 +23,11 @@
                 <div class="bar3"></div>
             </div>
             <div id="mobile-menu">
-                <a href="#home">HOMEPAGE</a>
-                <a href="#software">SOFTWARE</a>
-                <a href="#incloud">INCLOUD</a>
+                <a href="/development/pages/homepage.html">HOMEPAGE</a>
+                <a href="/development/pages/software.html">SOFTWARE</a>
+                <a href="/development/pages/incloud.html">INCLOUD</a>
                 <a href="#chisiamo" >CHI SIAMO</a>
-                <a href="#contattaci"><span id="contattaci-hamburger">CONTATTACI</span></a>
+                <a href="#section9homepage"><span id="contattaci-hamburger">CONTATTACI</span></a>
             </div>
         </div>
     </header>
@@ -217,12 +217,12 @@
 
             <form action="" method="GET" target="blank" id="form">
                 <div>
-                    <input type="text" name="nome" id="nome" placeholder="Nome*">
-                    <input type="text" name="cognome" id="cognome" placeholder="Cognome*">
-                    <input type="email" name="e-mail" id="email" placeholder="Email*">
+                    <input type="text" name="nome" id="nome" placeholder="Nome*" required>
+                    <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
+                    <input type="email" name="e-mail" id="email" placeholder="Email*" required>
                     <input type="text" name="numero" id="numero" placeholder="Telefono">
-                    <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*">
-                    <input type="text" list="province" placeholder="Provincia*" id="provincia" />
+                    <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*" required>
+                    <input type="text" list="province" placeholder="Provincia*" id="provincia" required/>
                     <select id="attivita">
                         <option value="">Tipo di attività*</option>
                         <option value="">Antintrusione</option>
@@ -375,7 +375,7 @@
             </div>
             <div id="footer-end">
                 <p>EXPERTEE</p>
-                <a href="#">Blog</a><br>
+                <a href="/development/pages/blog.html">Blog</a><br>
                 <a href="#">Chi siamo</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Servizio assistenza</a><br>
