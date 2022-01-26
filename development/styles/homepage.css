@@ -124,28 +124,28 @@ body {
 @media only screen and (min-width: 768px) {
 
   #section1homepage p:nth-child(1) {
-    font-size: 24px;
-    margin-top: 7vh;
+    font-size: 16px;
+    margin-top: 10vh;
   }
 
   #section1homepage p:nth-child(2) {
-    font-size: 84px;
-    line-height: 102px;
+    font-size: 56px;
+    line-height: 84px;
   }
 
   #section1homepage p:nth-child(3) {
-    font-size: 36px;
-    line-height: 54px;
+    font-size: 18px;
+    line-height: 40px;
   }
 
   #section1homepage .button {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   #freccetta {
     width: 100vw;
     padding-bottom: 3vh;
-    padding-top: 7vh;
+    padding-top: 4vh;
     margin: 0;
   }
   
@@ -154,7 +154,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1055px) {
 
   #section1homepage > *:not(.button) {
     text-align: left;
@@ -165,8 +165,32 @@ body {
     background-size: cover;
   }
 
+  #section1homepage .button {
+    font-size: 24px;
+    width: 18%;
+  } 
+
+  #freccetta {
+    width: 100vw;
+    padding-bottom: 3vh;
+    padding-top: 15vh;
+    margin: 0;
+  } 
+  
+  #freccetta img {
+    width: 5vw;
+    margin-left: 47.5vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  #section1homepage > *:not(.button) {
+    text-align: left;
+  }
+
   #section1homepage p:nth-child(1) {
-    margin-top: 20vh;
+    margin-top: 10%;
     font-size: 24px;
   }
 
@@ -190,7 +214,7 @@ body {
   #freccetta {
     width: 100vw;
     padding-bottom: 3vh;
-    padding-top: 8vh;
+    padding-top: 5vh;
     margin: 0;
   }
   
@@ -234,8 +258,8 @@ body {
 @media only screen and (min-width: 768px) {
 
   #section2homepage {
-    padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-top: 50px;
+    padding-bottom: 50px !important;
   }
   
   #section2homepage p:nth-child(1) {
@@ -251,6 +275,16 @@ body {
   #section2homepage .button {
     font-size: 24px;
   }
+}
+
+@media only screen and (min-width: 1055px) {
+
+  #section2homepage .button {
+    font-size: 24px;
+    width: 18%;
+    margin-left: 41%;
+  }
+
 }
 
 @media only screen and (min-width: 1250px) {
@@ -272,11 +306,6 @@ body {
     margin-left: 15%;
   }
 
-  #section2homepage .button {
-    font-size: 24px;
-    width: 18%;
-    margin-left: 41%;
-  }
 }
 
 /* section 3 start*/
@@ -379,9 +408,14 @@ li {
   }
 
   #section3homepage p:nth-child(1) {
-    font-size: 64px;
-    line-height: 78px;
-    padding-top: 7vh;
+    font-size: 52px;
+    line-height: 64px;
+    padding-top: 10vh;
+  }
+
+  #section3homepage ul {
+    font-size: 24px;
+    line-height: 32px;
   }
 
   #section3homepage .button {
@@ -392,6 +426,29 @@ li {
   #section3homepage ul li  {
     margin-left: 2vw;
   }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  #section3homepage {
+    margin-bottom: 7vh;
+  }
+  
+  #section3homepage p:nth-child(1) {
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 10vh;
+  }
+
+  #section3homepage ul {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+  #section3homepage ul li  {
+    margin-left: 2vw;
+  }
+
 }
 
 /* section 4 start*/
@@ -486,18 +543,22 @@ li {
     justify-content: center;
     margin-bottom: 7vh;
     width: 45vw;
-    margin-top: 5vh;
   }
 
   #breakimg-desktop2 img{
+    width: 45vw;
     filter: brightness(74%);
-    width: 100%;
   }
 
   #section4homepage p:nth-child(1) {
-    font-size: 64px;
-    line-height: 78px;
-    padding-top: 7vh;
+    font-size: 52px;
+    line-height: 64px;
+    padding-top: 10vh;
+  }
+
+  #section4homepage ul {
+    font-size: 24px;
+    line-height: 32px;
   }
 
   #section4homepage .button {
@@ -508,6 +569,29 @@ li {
   #section4homepage ul li  {
     margin-left: 2vw;
   }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  #section4homepage {
+    margin-bottom: 7vh;
+  }
+  
+  #section4homepage p:nth-child(1) {
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 10vh;
+  }
+
+  #section4homepage ul {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+  #section4homepage ul li  {
+    margin-left: 2vw;
+  }
+
 }
 
 /* section 5 start */
