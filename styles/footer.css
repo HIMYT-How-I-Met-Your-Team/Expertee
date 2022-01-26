@@ -43,3 +43,71 @@ footer a {
 footer a:hover {
   color: rgba(211, 52, 31, 1);
 }
+
+@media only screen and (min-width: 768px) {
+
+  #footer-contattaci {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  #footer-end {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  #footer-contattaci p:first-child {
+    font-size: 32px;
+  }
+
+  #footer-end p:first-child {
+    font-size: 32px;
+  }
+
+  #footer-image img {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+  footer div {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #footer-contattaci {
+    width: 40%;
+    margin: 0;
+    float: left;
+  }
+
+  #footer-end {
+    width: 30%;
+    margin: 0;
+    float: left;
+    padding-left: 30px;
+  }
+
+  #footer-contattaci p:first-child {
+    margin-top: 0;
+  }
+
+  #footer-end p:first-child {
+    margin-top: 0;
+  }
+
+  #footer-image {
+    width: 30%;
+    float: right;
+    margin: 0;
+  }
+
+  #footer-image img {
+    float: right;
+    margin-top: 150px;
+    width: 50%;
+  }
+}

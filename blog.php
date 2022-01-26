@@ -1,9 +1,9 @@
 <?php 
-/* Template Name: Home */ 
-$bodyName = "homepage";
+/* Template Name: Blog */ 
+$bodyName = "blog";
 $stylesList = [
     "navbar",
-    "homepage",
+    "blog",
     "footer"
 ];
 $scriptsListOnStartup = [

@@ -1,9 +1,10 @@
-<?php 
-/* Template Name: Home */ 
-$bodyName = "homepage";
+<?php
+/* Template Name: Software */ 
+
+$bodyName = "software";
 $stylesList = [
     "navbar",
-    "homepage",
+    "software",
     "footer"
 ];
 $scriptsListOnStartup = [
@@ -14,7 +15,6 @@ $scriptsListOnFinish = [
     "slider"
 ];
 
-
 get_header('', array( 'styles' => $stylesList, 'scripts' => $scriptsListOnStartup ));
 get_body($bodyName);
 get_footer('', array( 'scripts' => $scriptsListOnFinish));
@@ -24,4 +24,3 @@ $data = array('nome' => $_POST['nome'],'cognome' => $_POST['cognome'],'email' =>
 insert($data);
 
 ?>
-
