@@ -200,7 +200,7 @@
                 <textarea name="messaggio" id="messaggio">Messaggio</textarea>
 
                 <input type="checkbox" name="privacy" id="btnprivacy" required/>
-                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
+                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy*</p>
 
                 <button type="submit" id="submit" class="button">CONTATTACI</button>
             </form>
