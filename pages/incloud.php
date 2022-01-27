@@ -44,15 +44,15 @@
             <p>Campi obbligatori*</p>
             <!-- form -->
 
-            <form action="" method="POST" target="blank" id="form">
+            <form action="#" method="POST" target="_self" id="form">
                 <div>
                     <input type="text" name="nome" id="nome" placeholder="Nome*" required>
                     <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
-                    <input type="email" name="e-mail" id="email" placeholder="Email*" required>
-                    <input type="text" name="numero" id="numero" placeholder="Telefono">
-                    <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*" required>
-                    <input type="text" list="province" placeholder="Provincia*" id="provincia" required/>
-                        <select id="attivita">
+                    <input type="email" name="email" id="email" placeholder="Email*" required>
+                    <input type="text" name="telefono" id="numero" placeholder="Telefono">
+                    <input type="text" name="ragSociale" id="ragione" placeholder="Ragione sociale*" required>
+                    <input type="text" name="provincia" list="province" placeholder="Provincia*" id="provincia" required/>
+                    <select id="attivita" name="attivita">
                         <option value="none">Tipo di attività*</option>
                         <option value="Antintrusione">Antintrusione</option>
                         <option value="Antincendio">Antincendio</option>
@@ -179,12 +179,12 @@
                         <option>Viterbo</option>
                     </datalist>
                 </div>
-                <textarea name="messaggio" id="messaggio">Messaggio</textarea>
+                <textarea name="messaggio" id="messaggio" placeholder="Messaggio"></textarea>
 
                 <input type="checkbox" name="privacy" id="btnprivacy" required/>
-                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
+                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy*</p>
 
-                <button type="submit" id="submit" class="button" disabled>CONTATTACI</button>
+                <button type="submit" id="submit" class="button">CONTATTACI</button>
             </form>
             <!-- end form-->
         </div>
