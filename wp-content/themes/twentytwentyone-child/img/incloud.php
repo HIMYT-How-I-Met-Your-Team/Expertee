@@ -1,9 +1,9 @@
 <?php 
-/* Template Name: Home */ 
-$bodyName = "homepage";
+/* Template Name: In Cloud */ 
+$bodyName = "incloud";
 $stylesList = [
     "navbar",
-    "homepage",
+    "incloud",
     "footer"
 ];
 $scriptsListOnStartup = [
