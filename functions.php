@@ -48,18 +48,14 @@ function get_body($pageName){
    include "pages/".$pageName.".php";
 }
 
-// inserts data inside the database
+// // inserts data inside the database
 function insert($data){
-   try{
-      if(!empty($data)){
-         if(!empty($data['email']) && !empty($data['email']) && !empty($data['nome']) && !empty($data['cognome']) && !empty($data['attivita']) && !empty($data['ragSociale']) && !empty($data['provincia'])){
-            global $wpdb;
-            $table = $wpdb->prefix.'formdata';
-            $wpdb->insert($table,$data);
-         }
-      }
-   }catch(Exception $e){
-      echo 'Caught exception: ',  $e->getMessage(), "\n";
+   if (function_exists('inserter'))
+   {
+      inserter($data);
+   }
+   else {
+      echo("<h2>You're missing the plugin 'lead-view' for the form management.</h2>");
    }
 }
 
