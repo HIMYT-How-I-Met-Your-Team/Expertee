@@ -9,7 +9,7 @@
 <header>
     <div id="brand"><a href="#"><img src="<?php echo get_stylesheet_directory_uri();?>/img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
         <div id="nav">
-            <a href="index.php/contattaci"><span id="contattaci">CONTATTACI</span></a>
+            <a href="#form"><span id="contattaci">CONTATTACI</span></a>
             <a href="index.php/chisiamo" >CHI SIAMO</a>
             <a href="index.php/incloud">INCLOUD</a>
             <a href="index.php/software">SOFTWARE</a>
