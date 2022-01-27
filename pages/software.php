@@ -107,7 +107,7 @@
             <p>Campi obbligatori*</p>
             <!-- form -->
 
-            <form action="#" method="POST" target="blank" id="form">
+            <form action="#" method="POST" target="_self" id="form">
                 <div>
                     <input type="text" name="nome" id="nome" placeholder="Nome*" required>
                     <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>

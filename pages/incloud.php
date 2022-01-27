@@ -44,7 +44,7 @@
             <p>Campi obbligatori*</p>
             <!-- form -->
 
-            <form action="" method="POST" target="blank" id="form">
+            <form action="#" method="POST" target="_self" id="form">
                 <div>
                     <input type="text" name="nome" id="nome" placeholder="Nome*" required>
                     <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
@@ -184,7 +184,7 @@
                 <input type="checkbox" name="privacy" id="btnprivacy" required/>
                 <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
 
-                <button type="submit" id="submit" class="button" disabled>CONTATTACI</button>
+                <button type="submit" id="submit" class="button">CONTATTACI</button>
             </form>
             <!-- end form-->
         </div>
