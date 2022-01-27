@@ -114,7 +114,7 @@
                     <input type="email" name="email" id="email" placeholder="Email*" required>
                     <input type="text" name="telefono" id="numero" placeholder="Telefono">
                     <input type="text" name="ragSociale" id="ragione" placeholder="Ragione sociale*" required>
-                    <input type="text" list="provincia" placeholder="Provincia*" id="provincia" required/>
+                    <input type="text" name="provincia" list="province" placeholder="Provincia*" id="provincia" required/>
                         <select id="attivita" name="attivita">
                         <option value="none">Tipo di attività*</option>
                         <option value="Antintrusione">Antintrusione</option>
