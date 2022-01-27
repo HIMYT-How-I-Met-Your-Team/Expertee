@@ -22,11 +22,11 @@
                 <div class="bar3"></div>
             </div>
             <div id="mobile-menu">
-                <a href="#home">HOMEPAGE</a>
-                <a href="#software">SOFTWARE</a>
-                <a href="#incloud">INCLOUD</a>
-                <a href="#chisiamo" >CHI SIAMO</a>
-                <a href="#contattaci"><span id="contattaci-hamburger">CONTATTACI</span></a>
+                <a href="index.php/home">HOMEPAGE</a>
+                <a href="index.php/software">SOFTWARE</a>
+                <a href="index.php/incloud">INCLOUD</a>
+                <a href="index.php/chisiamo" >CHI SIAMO</a>
+                <a href="#form"><span id="contattaci-hamburger">CONTATTACI</span></a>
             </div>
         </div>
 </header>
