@@ -246,20 +246,75 @@ body {
 }
 
 /* section 2 start */
-#section2incloud > *:not(#dots) {
-  text-align: center;
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.container {
+  margin-top: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 15vw;
 }
 
-#section2incloud > p:nth-child(1) {
-  padding-top: 3vh;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 36px;
-  padding-bottom: 3vh;
+div .card-header {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  background: rgba(29, 29, 27, 1);
 }
+
+.card-header img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 2vh;
+  width: 50%;
+  height: 50%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  min-height: 250px;
+  margin-top: 30vh;
+}
+
+.card-header p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 15vh;
+  text-align: center;
+  color: white;
+}
+
+.card-body p {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
 
 @media only screen and (min-width: 1250px) {
 .noselected{
