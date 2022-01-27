@@ -197,7 +197,7 @@
                         <option>Viterbo</option>
                     </datalist>
                 </div>
-                <textarea name="messaggio" id="messaggio">Messaggio</textarea>
+                <textarea name="messaggio" id="messaggio" placeholder="Messaggio"></textarea>
 
                 <input type="checkbox" name="privacy" id="btnprivacy" required/>
                 <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy*</p>
