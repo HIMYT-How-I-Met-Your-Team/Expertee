@@ -180,10 +180,12 @@
             <!-- form -->
 
             <form action="#" method="POST" target="_self" id="form">
-                <input type="text" name="nome" id="nome" placeholder="Nome*">
-                <input type="text" name="cognome" id="cognome" placeholder="Cognome*">
-                <input type="email" name="email" id="email" placeholder="Email*">
+                <input type="text" name="nome" id="nome" placeholder="Nome*" required>
+                <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
+                <input type="email" name="email" id="email" placeholder="Email*" required>
                 <input type="text" name="telefono" id="numero" placeholder="Telefono">
+                <input type="text" name="ragSociale" id="ragione" placeholder="Ragione sociale*" required>
+                <input type="text" name="provincia" list="province" placeholder="Provincia*" id="provincia" required/>
                 <select id="attivita" name="attivita">
                     <option value="none">Tipo di attività*</option>
                     <option value="Antintrusione">Antintrusione</option>
