@@ -60,6 +60,13 @@ function get_form()
    include "pages/form.php";
 }
 
+function get_after_form() 
+{
+   echo("<!-- end form-->
+      </div>
+      </section>");
+}
+
 // // inserts data inside the database
 function insert($data)
 {

@@ -60,9 +60,3 @@
         <p>Inserisci i tuoi dati nel form e sarai ricontattato</p>
         <p>Campi obbligatori*</p>
         <!-- form -->
-
-        <?php get_form(); ?>
-
-        <!-- end form-->
-    </div>
-</section>

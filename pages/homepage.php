@@ -315,8 +315,3 @@
         <p>Campi obbligatori*</p>
         <!-- form -->
 
-        <?php get_form(); ?>
-
-        <!-- end form-->
-    </div>
-</section>
