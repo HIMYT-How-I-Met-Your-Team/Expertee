@@ -242,56 +242,6 @@
     </div>
 </section>
 
-<section>
-    <div id="section6homepage">
-        <p>Cosa dicono di noi</p>
-        <!-- slider -->
-        <div class="card selected">
-            <div class="container">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/virgolette.png" alt="virgolette">
-                <p>Il gestionale più completo presente sul mercato, sviluppato da Expertee. Rappresenta da anni la soluzione ideale per la gestione di qualsiasi tipologia di impresa. Usiamo Expertee nella gestione quotidiana lavorando su manutenzione industriale, doveri di sicurezza e gestione del personale.</p>
-                <div>
-                    <p>Elisa Zamorani</p>
-                    <p>Manager Contarina S.p.a.</p>
-                </div>
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/profilo.png" alt="profilo">
-            </div>
-        </div>
-
-        <div class="card noselected">
-            <div class="container">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/virgolette.png" alt="virgolette">
-                <p>Il gestionale più completo presente sul mercato, sviluppato da Expertee. Rappresenta da anni la soluzione ideale per la gestione di qualsiasi tipologia di impresa. Usiamo Expertee nella gestione quotidiana lavorando su manutenzione industriale, doveri di sicurezza e gestione del personale.</p>
-                <div>
-                    <p>Matteo Rossi</p>
-                    <p>Manager Contarina S.p.a.</p>
-                </div>
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/profilo.png" alt="profilo">
-            </div>
-        </div>
-
-        <div class="card noselected">
-            <div class="container">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/virgolette.png" alt="virgolette">
-                <p>Il gestionale più completo presente sul mercato, sviluppato da Expertee. Rappresenta da anni la soluzione ideale per la gestione di qualsiasi tipologia di impresa. Usiamo Expertee nella gestione quotidiana lavorando su manutenzione industriale, doveri di sicurezza e gestione del personale.</p>
-                <div>
-                    <p>Luca Bianchi</p>
-                    <p>Manager Contarina S.p.a.</p>
-                </div>
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/profilo.png" alt="profilo">
-            </div>
-        </div>
-
-        <div id="dots">
-            <div class="selecteddot"></div>
-            <div class="nonselecteddot"></div>
-            <div class="nonselecteddot"></div>
-        </div>
-
-        <!-- end slider -->
-    </div>
-</section>
-
 <div id="breakline"></div>
 
 <section>
