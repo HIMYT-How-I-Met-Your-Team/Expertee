@@ -6,6 +6,53 @@
       <link rel="stylesheet" href="../styles/software.css">
       <link rel="stylesheet" href="../styles/footer.css">
   </head>
+
+  <style>
+    #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 5;
+      cursor: pointer;
+    }
+    
+    #video1 {
+        width: 640px;
+        height: 480px;
+        position: fixed;
+        top: 15vh;
+        left: calc(50vw - 320px);
+        display: none;
+        z-index: 9999;
+    }
+
+    #video2 {
+        width: 640px;
+        height: 480px;
+        position: fixed;
+        top: 15vh;
+        left: calc(50vw - 320px);
+        display: none;
+        z-index: 9999;
+    }
+
+    #video3 {
+        width: 640px;
+        height: 480px;
+        position: fixed;
+        top: 15vh;
+        left: calc(50vw - 320px);
+        display: none;
+        z-index: 9999;
+    }
+  </style>
+
   <body>
     <header>
         <div id="brand"><a href="/development/pages/homepage.html"><img src="../img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
@@ -32,6 +79,8 @@
         </div>
     </header>
 
+    <div id="overlay" onclick="off()"></div>
+
     <section>
         <div id="section1software">
             <p>SOFTWARE MANUTENZIONE</p>
@@ -40,7 +89,7 @@
             <p class="button"><a href="#section7software">RICHIEDI DEMO GRATUTITA</a></p>
 
             <div id="freccetta">
-                <img src="../img/freccetta.png" alt="scendi">
+                <img src="../img/freccetta.svg" alt="scendi">
             </div>
         </div>
     </section>
@@ -56,7 +105,8 @@
         </div>
 
         <div id="breakimg-desktop1">
-            <img src="../img/software2Big.png" alt="immaginegrande">
+            <img src="../img/software2Big.png" alt="immaginegrande" onclick="on1()">
+            <iframe id="video1" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
         </div>
 
     <section>
@@ -80,7 +130,8 @@
         </div>
 
         <div id="breakimg-desktop2">
-            <img src="../img/software3Big.png" alt="immaginegrande">
+            <img src="../img/software3Big.png" alt="immaginegrande" onclick="on2()">
+            <iframe id="video2" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
         </div>
 
     <section>
@@ -104,7 +155,8 @@
     </div>
 
     <div id="breakimg-desktop3">
-        <img src="../img/software4Big.png" alt="immaginegrande">
+        <img src="../img/software4Big.png" alt="immaginegrande" onclick="on3()">
+        <iframe id="video3" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
     </div>
     
     <section>
@@ -294,7 +346,7 @@
             <div id="footer-contattaci">
                 <p>Contatti</p>
                 <p>+39 011.0437557</p>
-                <p>fixerp@icpinformatica.it</p>
+                <p>expertee@icpinformatica.it</p>
                 <p>Partita Iva IT 11821700017</p>
                 <p>Corso Svizzera, 185 - 10149 Torino (TO)</p>
             </div>
@@ -307,6 +359,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function on1() {
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("video1").style.display = "block";
+        }
+
+        function on2() {
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("video2").style.display = "block";
+        }
+
+        function on3() {
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("video3").style.display = "block";
+        }
+        
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("video1").style.display = "none";
+          document.getElementById("video2").style.display = "none";
+          document.getElementById("video3").style.display = "none";
+          document.getElementById("video1").pause();
+          document.getElementById("video2").pause();
+          document.getElementById("video3").pause();
+          document.getElementById("video1").currentTime = 0;
+          document.getElementById("video2").currentTime = 0;
+          document.getElementById("video3").currentTime = 0;
+        }
+    </script>
 
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/slider.js"></script>
