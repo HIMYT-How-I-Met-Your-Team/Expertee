@@ -10,14 +10,14 @@
             <div id="footer-contattaci">
                 <p>Contatti</p>
                 <p>+39 011.0437557</p>
-                <p>fixerp@icpinformatica.it</p>
+                <p>expertee@icpinformatica.it</p>
                 <p>Partita Iva IT 11821700017</p>
                 <p>Corso Svizzera, 185 - 10149 Torino (TO)</p>
             </div>
             <div id="footer-end">
                 <p>EXPERTEE</p>
-                <a href="#">Blog</a><br>
-                <a href="#">Chi siamo</a><br>
+                <a href="index.php/blog">Blog</a><br>
+                <a href="index.php/chisiamo">Chi siamo</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Servizio assistenza</a><br>
             </div>

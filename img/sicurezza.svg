@@ -1,1 +1,12 @@
-<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.72 555"><defs><style>.cls-1,.cls-2{fill:none;stroke:#0e72ba;stroke-linejoin:round;stroke-width:26px;}.cls-2{stroke-linecap:round;}</style></defs><path class="cls-1" d="M575.06,167c-88.85-10-214.12-94.72-214.52-95h0c-.41.27-125.67,85-214.53,95,0,0-43.53,285.33,211,432v0l2.57,1.46,1,.57h0C619,455,575.06,167,575.06,167Z" transform="translate(-130.17 -59)"/><polyline class="cls-2" points="140.75 254.93 219.83 332.01 351.22 200.36"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 460.7 555" style="enable-background:new 0 0 460.7 555;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:20;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path class="st0" d="M444.9,108C356,98,230.8,13.3,230.4,13l0,0c-0.4,0.3-125.7,85-214.5,95c0,0-43.5,285.3,211,432l0,0l2.6,1.5
+	l1,0.6l0,0C488.8,396,444.9,108,444.9,108z"/>
+<polyline class="st1" points="140.8,254.9 219.8,332 351.2,200.4 "/>
+</svg>

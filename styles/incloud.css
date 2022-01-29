@@ -30,12 +30,12 @@ body {
 #freccetta {
   width: 100vw;
   padding-bottom: 3vh;
-  padding-top: 15vh;
+  padding-top: 10vh;
   margin: 0;
 }
 
 #freccetta img {
-  width: 8vw;
+  width: 30vw;
 }
 
 /*section 1 start*/
@@ -95,7 +95,7 @@ body {
   }
 
   #section1incloud p:nth-child(2) {
-    font-size: 84px;
+    font-size: 64px;
     line-height: 102px;
   }
 
@@ -116,7 +116,7 @@ body {
   }
   
   #freccetta img {
-    width: 5vw;
+    width: 20vw;
   }
 }
 
@@ -132,12 +132,12 @@ body {
   }
 
   #section1incloud p:nth-child(1) {
-    margin-top: 20vh;
+    margin-top: 15vh;
     font-size: 24px;
   }
 
   #section1incloud p:nth-child(2) {
-    font-size: 84px;
+    font-size: 64px;
     width: 80%;
     line-height: 102px;
   }
@@ -156,13 +156,13 @@ body {
   #freccetta {
     width: 100vw;
     padding-bottom: 3vh;
-    padding-top: 8vh;
+    padding-top: 10vh;
     margin: 0;
-  }
+  } 
   
   #freccetta img {
-    width: 5vw;
-    margin-left: 47.5vw;
+    width: 13vw;
+    margin-left: 43.5vw;
   }
 }
 
@@ -248,7 +248,7 @@ div .card-header {
   margin-top: 105vh;
   text-align: center;
   font-family: Montserrat;
-  font-size: 84px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 800;
   margin-bottom: 5vh;  
@@ -309,8 +309,10 @@ div .card-header {
 }
 
 .card-body p {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -369,7 +371,7 @@ div .card-header {
     }
     
     #section3incloud p:nth-child(1) {
-      font-size: 84px;
+      font-size: 64px;
       line-height: 102px;
     }
 
@@ -394,7 +396,7 @@ div .card-header {
     }
     
     #section3incloud p:nth-child(1) {
-      font-size: 84px;
+      font-size: 64px;
       line-height: 102px;
     }
 
@@ -443,7 +445,7 @@ div .card-header {
   }
   
   #section4incloud p:nth-child(1) {
-    font-size: 84px;
+    font-size: 64px;
     line-height: 102px;
   }
 
@@ -458,7 +460,7 @@ div .card-header {
   }
   
   #section4incloud p:nth-child(1) {
-    font-size: 84px;
+    font-size: 64px;
     line-height: 102px;
   }
 }

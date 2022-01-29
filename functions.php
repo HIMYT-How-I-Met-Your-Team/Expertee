@@ -48,6 +48,11 @@ function get_body($pageName){
    include "pages/".$pageName.".php";
 }
 
+// prints the form 
+function get_form(){
+   include "form.php";
+}
+
 // // inserts data inside the database
 function insert($data){
    if (function_exists('inserter'))
@@ -58,5 +63,3 @@ function insert($data){
       echo("<h2>You're missing the plugin 'lead-view' for the form management.</h2>");
    }
 }
-
-?>

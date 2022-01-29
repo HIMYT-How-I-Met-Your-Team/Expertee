@@ -8,7 +8,7 @@
             <p class="button"><a href="#section5chisiamo">CONTATTACI</a></p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.svg" alt="scendi">
             </div>
         </div>
     </section>
@@ -24,7 +24,7 @@
             </p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.svg" alt="scendi">
             </div>
         </div>
     </section>

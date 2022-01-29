@@ -10,7 +10,7 @@
         <p class="button"><a href="#section5incloud">RICHIEDI DEMO GRATUTITA</a></p>
 
         <div id="freccetta">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi" />
+          <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.svg" alt="scendi" />
         </div>
       </div>
     </section>
