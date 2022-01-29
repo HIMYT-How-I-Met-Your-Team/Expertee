@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="it-IT">
 <?php
     get_head($args['styles'], $args['scripts']);
 ?>
 <meta name='viewport' content='width=device-width, initial-scale=1' />
+<title>Expertee</title>
 </head>
 <header>
     <div id="brand"><a href="#"><img src="<?php echo get_stylesheet_directory_uri();?>/img/Logo_expertee_2.svg" alt="logo expertee"></a></div>
