@@ -4,10 +4,10 @@
             <p>SOFTWARE MANUTENZIONE</p>
             <p>Gestionale significa ordine e risparmio</p>
             <p><b>Expertee</b> integra con le sue funzionalità le esigenze specifiche della tua azienda.</p>
-            <p class="button"><a href="">RICHIEDI DEMO GRATUTITA</a></p>
+            <p class="button"><a href="#section7software">RICHIEDI DEMO GRATUTITA</a></p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="freccetta">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
             </div>
         </div>
     </section>
@@ -19,11 +19,11 @@
     </section>
 
         <div id="breakimg-mobile1">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software2.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software2.png" alt="immaginepiccola">
         </div>
 
         <div id="breakimg-desktop1">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software2Big.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software2Big.png" alt="immaginegrande">
         </div>
 
     <section>
@@ -38,21 +38,21 @@
                 <span class="blue">Materiale</span><br>
                 Si potranno monitorare gli sprechi di magazzino impostando il materiale prelevato e usato dal tecnico.<br>
             </p>
-            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+            <p class="button"><a href="index.php/incloud">SCOPRI DI PIÙ</a></p>
         </div>
     </section>
 
         <div id="breakimg-mobile2">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software3.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software3.png" alt="immaginepiccola">
         </div>
 
         <div id="breakimg-desktop2">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software3Big.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/software3Big.png" alt="immaginegrande">
         </div>
 
     <section>
         <div id="section4software">
-            <p>Gestisci e Pianifica</p>
+            <p>Puntualità e precisione</p>
             <p>
                 Organizza gli appuntamenti con i clienti, gestisci:<br>
                 <span class="blue">Importi e scadenze</span><br>
@@ -62,16 +62,16 @@
                 <span class="blue">Ricorrenze di adeguamento</span><br>
                 Assegna gli interventi ai tecnici sul campo, verranno avvisati con una notifica sul loro dispositivo.<br>
             </p>
-            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+            <p class="button"><a href="index.php/incloud">SCOPRI DI PIÙ</a></p>
         </div>
     </section>
 
     <div id="breakimg-mobile3">
-        <img src<?php echo get_stylesheet_directory_uri();?>="/img/software4.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri();?>/img/software4.png" alt="immaginepiccola">
     </div>
 
     <div id="breakimg-desktop3">
-        <img src="<?php echo get_stylesheet_directory_uri();?>/img/software4Big.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri();?>/img/software4Big.png" alt="immaginegrande">
     </div>
     
     <section>
@@ -86,7 +86,7 @@
                 <span class="blue">Importo</span><br>
                 Specifica il range di importo di tuo interesse.<br>
             </p>
-            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+            <p class="button"><a href="index.php/incloud">SCOPRI DI PIÙ</a></p>
         </div>
     </section>
 
@@ -96,7 +96,7 @@
         <div id="section6software">
             <p>Expertee sfrutta la tecnologia Incloud</p>
             <p>Scopri come la tecnologia Incloud è perfetta per gestire la tua attività rispettandone le caratteristiche, e contenendo gli investimenti.</p>
-            <p class="button"><a href="">SCOPRI I VANTAGGI</a></p>
+            <p class="button"><a href="index.php/incloud">SCOPRI I VANTAGGI</a></p>
         </div>
     </section>
 

@@ -26,40 +26,6 @@ body {
 }
 
 /* break img  & breakline & freccette */
-#breakimg-mobile1 {
-  width: 100vw;
-  padding-bottom: 3vh;
-}
-
-#breakimg-desktop1 {
-  display: none;
-}
-
-#breakimg-mobile1 img{
-  width: 100vw;
-  filter: brightness(69%);
-}
-
-#breakimg-mobile2 {
-  width: 100vw;
-  padding-bottom: 3vh;
-}
-
-#breakimg-desktop2 {
-  display: none;
-}
-
-#breakimg-mobile2 img{
-  width: 100vw;
-  filter: brightness(69%);
-}
-
-#breakline {
-  width: 100%;
-  height: 2px;
-  background-color: rgba(47, 47, 47, 0.17);
-  margin-top: 5vh;
-}
 
 #freccetta {
   width: 100vw;
@@ -73,7 +39,7 @@ body {
 }
 
 /*section 1 start*/
-#section1homepage {
+#section1incloud {
   width: 100vw;
   height: calc(100vh - 12.31vh);
   top: 12.31vh;
@@ -88,7 +54,7 @@ body {
   background-size: cover;
 }
 
-#section1homepage > * {
+#section1incloud > * {
     text-align: center;
     color: white;
     width: 80vw;
@@ -96,49 +62,49 @@ body {
     margin-right: 10vw;
 }
 
-#section1homepage p:nth-child(1) {
+#section1incloud p:nth-child(1) {
   margin-top: 20vh;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 12px;
 }
 
-#section1homepage p:nth-child(2) {
+#section1incloud p:nth-child(2) {
   margin-top: 3vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 36px;
 }
 
-#section1homepage p:nth-child(3) {
+#section1incloud p:nth-child(3) {
   margin-top: 3vh;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
-#section1homepage p:nth-child(4) {
+#section1incloud p:nth-child(4) {
   margin-top: 5vh;
 }
 
 @media only screen and (min-width: 768px) {
 
-  #section1homepage p:nth-child(1) {
+  #section1incloud p:nth-child(1) {
     font-size: 24px;
     margin-top: 7vh;
   }
 
-  #section1homepage p:nth-child(2) {
+  #section1incloud p:nth-child(2) {
     font-size: 84px;
     line-height: 102px;
   }
 
-  #section1homepage p:nth-child(3) {
+  #section1incloud p:nth-child(3) {
     font-size: 36px;
     line-height: 54px;
   }
 
-  #section1homepage .button {
+  #section1incloud .button {
     font-size: 24px;
   }
 
@@ -156,33 +122,33 @@ body {
 
 @media only screen and (min-width: 1250px) {
 
-  #section1homepage > *:not(.button) {
+  #section1incloud > *:not(.button) {
     text-align: left;
   }
 
-  #section1homepage {
+  #section1incloud {
     background: url(../img/software5Big.png) no-repeat;
     background-size: cover;
   }
 
-  #section1homepage p:nth-child(1) {
+  #section1incloud p:nth-child(1) {
     margin-top: 20vh;
     font-size: 24px;
   }
 
-  #section1homepage p:nth-child(2) {
+  #section1incloud p:nth-child(2) {
     font-size: 84px;
     width: 80%;
     line-height: 102px;
   }
 
-  #section1homepage p:nth-child(3) {
+  #section1incloud p:nth-child(3) {
     font-size: 36px;
     width: 60%;
     line-height: 54px;
   }
 
-  #section1homepage .button {
+  #section1incloud .button {
     font-size: 24px;
     width: 18%;
   }
@@ -200,53 +166,168 @@ body {
   }
 }
 
-/*section 2 start*/
-#section2homepage {
-  margin-top: 100vh;
-}
+/* section 2 start */
 
-#section2homepage > * {
+#funzionalita{
+  margin-top: 105vh;
   text-align: center;
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 5vh;  
 }
 
-#section2homepage p:nth-child(1) {
-    padding-top: 3vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 36px;
-  }
+.container {
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width:300px;
+  margin-left: calc(50vw - 150px);
+  margin-bottom: 30px;
+  height: 400px;
+}
 
-@media only screen and (min-width: 768px) {
+div .card-header {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 60%;
+  background: rgba(29, 29, 27, 1);
+}
 
-  #section2homepage {
-    padding-top: 5vh;
-    padding-bottom: 3vh;
-  }
-  
-  #section2homepage p:nth-child(1) {
-    font-size: 84px;
-    line-height: 102px;
-  }
+.card-header img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 80%;
+  margin-bottom: 10%;
+}
+
+.card-header p {
+  margin-top: 55%;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.card-body p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#container2 {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+@media only screen and (min-width: 1024px) {
+  #funzionalita{
+  margin-top: 105vh;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 5vh;  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: calc(1000px / 3);
+  height: 550px;
+  margin-left: calc(100vw/6 - 1000px/6);
+  margin-right: calc(100vw/6 - 1000px/6);
+}
+
+div .card-header {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background: rgba(29, 29, 27, 1);
+}
+
+.card-header img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 10%;
+  width: 40%;
+  height: 40%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 95%;
+  margin-bottom: 10%;
+}
+
+.card-header p {
+  margin-top: 60%;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.card-body p {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#container2 {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
 }
 
 @media only screen and (min-width: 1250px) {
-
-  #section2homepage {
-    padding-top: 5vh;
-    padding-bottom: 3vh;
-  }
-  
-  #section2homepage p:nth-child(1) {
-    font-size: 84px;
-    line-height: 102px;
-  }
+.noselected{
+  display: block;
+}
 }
 
-/*section 7 start*/
-#sectionhomepage {
+/*section 3 start*/
+#section3incloud {
     width: 100vw;
     background: url(../img/software1.png) no-repeat center top;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.72);
@@ -254,7 +335,7 @@ body {
     padding-bottom: 3vh;
   }
   
-  #section7homepage > * {
+  #section3incloud > * {
     text-align: center;
     width: 80vw;
     margin-left: 10vw;
@@ -262,42 +343,42 @@ body {
     color: white;
   }
   
-  #section7homepage p:nth-child(1) {
+  #section3incloud p:nth-child(1) {
     padding-top: 3vh;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 36px;
   }
 
-  #section7homepage p:nth-child(2) {
+  #section3incloud p:nth-child(2) {
     margin-top: 3vh;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
   }
 
-  #section7homepage p:nth-child(3) {
+  #section3incloud p:nth-child(3) {
     margin-top: 5vh;
   }
   
   @media only screen and (min-width: 768px) {
   
-    #section7homepage {
+    #section3incloud {
       padding-top: 5vh;
       padding-bottom: 3vh;
     }
     
-    #section7homepage p:nth-child(1) {
+    #section3incloud p:nth-child(1) {
       font-size: 84px;
       line-height: 102px;
     }
 
-    #section7homepage p:nth-child(2) {
+    #section3incloud p:nth-child(2) {
         font-size: 36px;
         line-height: 54px;
     }
 
-    #section7homepage .button {
+    #section3incloud .button {
         font-size: 24px;
       }
   
@@ -305,26 +386,26 @@ body {
   
   @media only screen and (min-width: 1250px) {
   
-    #section7homepage {
+    #section3incloud {
         padding-top: 5vh;
         padding-bottom: 3vh;
         background: url(../img/software1Big.png) no-repeat center top;
         background-size: cover;
     }
     
-    #section7homepage p:nth-child(1) {
+    #section3incloud p:nth-child(1) {
       font-size: 84px;
       line-height: 102px;
     }
 
-    #section7homepage p:nth-child(2) {
+    #section3incloud p:nth-child(2) {
         font-size: 36px;
         line-height: 54px;
         width: 70%;
         margin-left: 15%;
       }
     
-      #section7homepage .button {
+      #section3incloud .button {
         font-size: 24px;
         width: 18%;
         margin-left: 41%;
@@ -332,14 +413,14 @@ body {
   }
 
 
-/*section 8 start*/
-#section8homepage {
+/*section 4 start*/
+#section4incloud {
   width: 100vw;
   background-color: rgba(211, 52, 31, 1);
   padding-bottom: 3vh;
 }
 
-#section8homepage > * {
+#section4incloud > * {
   text-align: center;
   width: 80vw;
   margin-left: 10vw;
@@ -347,7 +428,7 @@ body {
   color: white;
 }
 
-#section8homepage p:nth-child(1) {
+#section4incloud p:nth-child(1) {
   padding-top: 3vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -356,12 +437,12 @@ body {
 
 @media only screen and (min-width: 768px) {
 
-  #section8homepage {
+  #section4incloud {
     padding-top: 5vh;
     padding-bottom: 3vh;
   }
   
-  #section8homepage p:nth-child(1) {
+  #section4incloud p:nth-child(1) {
     font-size: 84px;
     line-height: 102px;
   }
@@ -370,25 +451,25 @@ body {
 
 @media only screen and (min-width: 1250px) {
 
-  #section8homepage {
+  #section4incloud {
     padding-top: 5vh;
     padding-bottom: 3vh;
     background-color: rgba(211, 52, 31, 1);
   }
   
-  #section8homepage p:nth-child(1) {
+  #section4incloud p:nth-child(1) {
     font-size: 84px;
     line-height: 102px;
   }
 }
 
-/* section 9 start */
-#section9homepage {
+/* section 5 start */
+#section5incloud {
     background-color: #1D1D1B;
     padding: 5vh 10vw;
   }
   
-  #section9homepage p:first-child{
+  #section5incloud p:first-child{
     font-family: Montserrat;
     font-weight: 800;
     font-size: 36px;
@@ -396,7 +477,7 @@ body {
     margin-bottom: 3vh;
   }
   
-  #section9homepage p:nth-child(2) {
+  #section5incloud p:nth-child(2) {
     font-family: Roboto;
     font-weight: 400;
     font-size: 18px;
@@ -404,7 +485,7 @@ body {
     margin-bottom: 2vh;
   }
   
-  #section9homepage p:nth-child(3) {
+  #section5incloud p:nth-child(3) {
     font-family: Roboto;
     font-weight: 400;
     font-size: 10px;
@@ -463,19 +544,19 @@ body {
   
   @media only screen and (min-width: 1250px) {
     
-    #section9homepage {
+    #section5incloud {
       height: 650px;
       padding-left: 5vw;
       padding-right: 5vw !important;
     }
     
-    #section9homepage p:first-child{
+    #section5incloud p:first-child{
       font-size: 64px;
       text-align: left;
       width: 80vw;
     }
   
-    #section9homepage p:nth-child(2) {
+    #section5incloud p:nth-child(2) {
       font-size: 36px;
       text-align: left;
       float: left;
@@ -483,7 +564,7 @@ body {
       padding-top: 5vh;
     }
   
-    #section9homepage p:nth-child(3) {
+    #section5incloud p:nth-child(3) {
       font-size: 14px;
       float: right;
       width: 80%;
@@ -541,7 +622,7 @@ body {
       display: none;
     }
   
-    #section9homepage .button {
+    #section5incloud .button {
       font-size: 24px;
       width: 18%;
       float: right;

@@ -5,10 +5,10 @@
             <p>Tra storia e innovazione</p>
             <p><b>Expertee</b> vuole unire esperienza ed innovazione. Con un software pensato apposta per migliorare la tua attività di manutenzione.
             </p>
-            <p class="button"><a href="">CONTATTACI</a></p>
+            <p class="button"><a href="#section5chisiamo">CONTATTACI</a></p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="freccetta">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
             </div>
         </div>
     </section>
@@ -24,7 +24,7 @@
             </p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="freccetta">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
             </div>
         </div>
     </section>

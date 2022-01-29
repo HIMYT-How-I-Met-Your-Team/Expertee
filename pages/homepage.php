@@ -4,10 +4,10 @@
             <p>GESTIONALE MANUTENZIONE</p>
             <p>Rendi efficiente la tua attività di manutenzione</p>
             <p><b>Expertee</b>, il software gestionale perfetto per migliorare la tua attività.</p>
-            <p class="button"><a href="">RICHIEDI DEMO GRATUTITA</a></p>
+            <p class="button"><a href="#section9homepage">RICHIEDI DEMO GRATUTITA</a></p>
 
             <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="">
+                <img src=".<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="scendi">
             </div>
         </div>
     </section>
@@ -16,16 +16,16 @@
         <div id="section2homepage">
             <p>Scopri le funzionalità</p>
             <p><b>Expertee</b> aiuta la tua azienda grazie alle sue molteplici funzionalità, create appositamente per soddisfare ogni tua esigenza!</p>
-            <p class="button"><a href="">VAI ALLE FUNZIONI</a></p>
+            <p class="button"><a href="index.php/incloud">VAI ALLE FUNZIONI</a></p>
         </div>
     </section>
 
-        <div class="breakimg-mobile">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/second.png" alt="">
+        <div id="breakimg-mobile1">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/second.png" alt="immaginepiccola">
         </div>
 
-        <div class="breakimg-desktop">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/secondBig.png" alt="">
+        <div id="breakimg-desktop1">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/secondBig.png" alt="immaginegrande">
         </div>
 
     <section>
@@ -40,12 +40,16 @@
                     <li>Genera i report delle attività con un click.</li>
                 </ul>
             </p>
-            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+            <p class="button"><a href="index.php/software">SCOPRI DI PIÙ</a></p>
         </div>
     </section>
 
-        <div class="breakimg-mobile">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/third.png" alt="">
+        <div id="breakimg-mobile2">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/third.png" alt="immaginepiccola">
+        </div>
+
+        <div id="breakimg-desktop2">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/thirdBig.png" alt="immaginegrande">
         </div>
 
     <section>
@@ -60,7 +64,7 @@
                     <li>Aggiornamento automatico.</li>
                 </ul>
             </p>
-            <p class="button"><a href="">SCOPRI DI PIÙ</a></p>
+            <p class="button"><a href="index.php/incloud">SCOPRI DI PIÙ</a></p>
         </div>
     </section>
     
@@ -68,7 +72,7 @@
         <div id="section5homepage">
             <p>Incentivi Industria 4.0</p>
             <p>Scopri gli incentivi e le agevolazioni 4.0 per la tua azienda!</p>
-            <p class="button"><a href="">LEGGI IL BLOG</a></p>
+            <p class="button"><a href="index.php/blog">LEGGI IL BLOG</a></p>
         </div>
     </section>
 
@@ -76,7 +80,6 @@
         <div id="section6homepage">
             <p>Cosa dicono di noi</p>
             <!-- slider -->
-
             <div class="card selected">
                 <div class="container">
                     <img src="<?php echo get_stylesheet_directory_uri();?>/img/virgolette.png" alt="virgolette">
@@ -120,7 +123,6 @@
             </div>
 
             <!-- end slider -->
-            <p class="button"><a href="">LEGGI DI PIÙ</a></p>
         </div>
     </section>
 
@@ -130,36 +132,54 @@
         <div id="section7homepage">
             <p>Tantissime aziende ci hanno già scelto!</p>
             <!-- slider -->
-
-            <div class="card selected">
+            <div id="slider">
+                <div class="card selected">
                     <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/GBS logo.png" alt="GBS">
-            </div>
+                </div>
 
-            <div class="card noselected">
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/MAC logo.png" alt="MAC">
-            </div>
+                <div class="card noselected">
+                    <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/MAC logo.png" alt="MAC">
+                </div>
 
-            <div class="card noselected">
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/SCI logo.png" alt="SCI">
-            </div>
+                <div class="card noselected">
+                    <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/SCI logo.png" alt="SCI">
+                </div>
 
-            <div class="card noselected">
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/sietec logo.png" alt="sietec">
-            </div>
+                <div class="card noselected">
+                    <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/sietec logo.png" alt="sietec">
+                </div>
 
-            <div class="card noselected">
-                <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/Format.net.png" alt="Format">
+                <div class="card noselected">
+                    <img class="card-img" src="<?php echo get_stylesheet_directory_uri();?>/img/Format.net.png" alt="Format">
+                </div>
+                
+                <div id="dots">
+                    <div class="selecteddot"></div>
+                    <div class="nonselecteddot"></div>
+                    <div class="nonselecteddot"></div>
+                    <div class="nonselecteddot"></div>
+                    <div class="nonselecteddot"></div>
+                </div>
             </div>
-            
-            <div id="dots">
-                <div class="selecteddot"></div>
-                <div class="nonselecteddot"></div>
-                <div class="nonselecteddot"></div>
-                <div class="nonselecteddot"></div>
-                <div class="nonselecteddot"></div>
-            </div>
-
             <!-- end slider -->
+
+            <div id="agency">
+                <div class="logo-agency">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/GBS logo.png" alt="GBS">
+                </div>
+                <div class="logo-agency">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/MAC logo.png" alt="MAC">
+                </div>
+                <div class="logo-agency">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/SCI logo.png" alt="SCI">
+                </div>
+                <div class="logo-agency">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/sietec logo.png" alt="sietec">
+                </div>
+                <div class="logo-agency">
+                    <img src="<?php echo get_stylesheet_directory_uri();?>/img/Format.net.png" alt="Format">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -168,7 +188,7 @@
             <p>La nostra esperienza al tuo servizio</p>
             <p>ICP Informatica unisce alla perfezione esperienza ed innovazione. 
                 Dal 1999 al servizio delle PMI.</p>
-            <p class="button"><a href="">SCOPRI CHI SIAMO</a></p>
+            <p class="button"><a href="index.php/chisiamno">SCOPRI CHI SIAMO</a></p>
         </div>
     </section>
 

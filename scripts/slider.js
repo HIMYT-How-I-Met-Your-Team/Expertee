@@ -38,7 +38,7 @@ dots6[2].addEventListener("click", seeCard3);
 
 
 /* slider section 7 */
-let company = document.querySelectorAll("#section7homepage .card");
+let company = document.querySelectorAll("#section7homepage #slider .card");
 let dots7 = document.querySelectorAll("#section7homepage #dots div");
 
 function seeCompany1() {
