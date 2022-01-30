@@ -305,12 +305,6 @@ div .card-header1 {
   margin: 0;
 }
 
-/* .card-body a:link, a:visited {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-} */
-
 .button {
   text-align: center;
   margin-top: 5vh;
@@ -443,18 +437,12 @@ div .card-header1 {
     margin: 0;
   }
 
-  /* .card-body a:link, a:visited {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-} */
-
-#section2blog .button {
-  font-size: 24px;
-  width: 18%;
-  margin-left: 41%;
-  background-color: rgba(14, 114, 186, 1);
-}
+  #section2blog .button {
+    font-size: 24px;
+    width: 18%;
+    margin-left: 41%;
+    background-color: rgba(14, 114, 186, 1);
+  }
 
 }
 
@@ -493,7 +481,7 @@ div .card-header1 {
 
   #section3blog {
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
   }
   
   #section3blog p:nth-child(1) {
@@ -507,7 +495,7 @@ div .card-header1 {
 
   #section3blog {
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
     background-color: rgba(211, 52, 31, 1);
   }
   
