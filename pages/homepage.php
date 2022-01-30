@@ -277,7 +277,7 @@
         <div id="slider">
 
             <div class="left" id="leftagency">
-                <img src="../img/freccia.svg" alt="leftarrow">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freccia.svg" alt="leftarrow">
             </div>
 
             <div class="card selected">
