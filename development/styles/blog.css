@@ -124,7 +124,7 @@ body {
   }
 
   #section1blog p:nth-child(1) {
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-size: 64px;
     width: 80%;
     line-height: 102px;
@@ -150,7 +150,9 @@ body {
   
   #freccetta img {
     width: 15vw;
-    margin-left: 43.5vw;
+    position: absolute;
+    left: 43.5vw;
+    bottom: 15vh;
   }
 }
 

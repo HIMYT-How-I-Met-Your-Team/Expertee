@@ -132,7 +132,7 @@ body {
   }
 
   #section1incloud p:nth-child(1) {
-    margin-top: 15vh;
+    margin-top: 5%;
     font-size: 24px;
   }
 
@@ -156,13 +156,15 @@ body {
   #freccetta {
     width: 100vw;
     padding-bottom: 3vh;
-    padding-top: 10vh;
+    padding-top: 5vh;
     margin: 0;
   } 
   
   #freccetta img {
     width: 13vw;
-    margin-left: 43.5vw;
+    position: absolute;
+    left: 43.5vw;
+    bottom: 15vh;
   }
 }
 
@@ -210,7 +212,8 @@ div .card-header {
   position: absolute;
   justify-content: center;
   margin-top: 10%;
-  width: 40%;
+  width: auto;
+  height: 40%;
 }
 
 .card-body {
@@ -286,7 +289,7 @@ div .card-header {
   justify-content: center;
   margin-top: 10%;
   width: 40%;
-  height: 40%;
+  height: 35%;
 }
 
 .card-body {
