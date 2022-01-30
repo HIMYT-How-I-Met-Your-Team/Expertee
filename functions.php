@@ -66,9 +66,9 @@ function get_after_form()
 }
 
 // test 
-function get_data(){
+function get_data($post){
    try {
-      $data = array('nome' => $_POST['nome'],'cognome' => $_POST['cognome'],'email' => $_POST['email'],'telefono' => $_POST['telefono'],'ragSociale' => $_POST['ragSociale'],'provincia' => $_POST['provincia'],'attivita' => $_POST['attivita'],'messaggio' => $_POST['messaggio']);
+      $data = array('nome' => $post['nome'],'cognome' => $post['cognome'],'email' => $post['email'],'telefono' => $post['telefono'],'ragSociale' => $post['ragSociale'],'provincia' => $post['provincia'],'attivita' => $post['attivita'],'messaggio' => $post['messaggio']);
       return $data;
    }catch(Exception $e){
       echo ("<h2>Something went wrong!</h2>");
