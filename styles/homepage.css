@@ -3,6 +3,7 @@
 
 body {
   background-color: white;
+  overflow-x: hidden;
 }
 
 /*all buttons*/
@@ -644,6 +645,22 @@ li {
   height: 300px;
 }
 
+.left {
+  width: 25%;
+  float: left;
+  transform: rotate(180deg) ;
+  position: relative;
+  top: 80px;
+  visibility: hidden;
+}
+
+.right {
+  width: 25%;
+  float: right;
+  position: relative;
+  top: -200px;
+}
+
 #section6homepage .card .container {
   width: 300px;
   height: 100%;
@@ -698,16 +715,31 @@ li {
 
 @media only screen and (min-width: 1024px) {
   .threecard {
-    width: 100vw;
+    width: 100%;
   }
   
   #section6homepage .card {
-    width: calc(100%/3);
+    width: calc(85%/3);
     float: left;
   }
 
   #dots-desktop {
     padding-top: 25px;
+  }
+
+  .left {
+    width: 7.5%;
+    float: left;
+    transform: rotate(180deg) ;
+    position: relative;
+    top: 130px;
+  }
+  
+  .right {
+    width: 7.5%;
+    float: right;
+    position: relative;
+    top: 140px;
   }
 }
 /* end card */
@@ -747,6 +779,11 @@ li {
 
 #section7homepage #agency {
   display: none;
+}
+
+#section7homepage .left {
+  top: 135px;
+  z-index: 999;
 }
 
 @media only screen and (min-width: 1024px) {
