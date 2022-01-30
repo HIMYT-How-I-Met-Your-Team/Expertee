@@ -4,7 +4,9 @@
 
 function twentyonechild_theme_enqueue_styles()
 {
-   wp_enqueue_style('child-style',get_stylesheet_uri(),
+   wp_enqueue_style(
+      'child-style',
+      get_stylesheet_uri(),
       array('parenthandle'),
       wp_get_theme()->get('Version') // this only works if you have Version in the style header
    );
@@ -58,19 +60,20 @@ function get_form()
    include "pages/form.php";
 }
 
-function get_after_form() 
+function get_after_form()
 {
-   echo("<!-- end form-->
+   echo ("<!-- end form-->
       </div>
       </section>");
 }
 
-// test 
-function get_data($post){
+// get data from the form 
+function get_data($post)
+{
    try {
-      $data = array('nome' => $post['nome'],'cognome' => $post['cognome'],'email' => $post['email'],'telefono' => $post['telefono'],'ragSociale' => $post['ragSociale'],'provincia' => $post['provincia'],'attivita' => $post['attivita'],'messaggio' => $post['messaggio']);
+      $data = array('nome' => $post['nome'], 'cognome' => $post['cognome'], 'email' => $post['email'], 'telefono' => $post['telefono'], 'ragSociale' => $post['ragSociale'], 'provincia' => $post['provincia'], 'attivita' => $post['attivita'], 'messaggio' => $post['messaggio']);
       return $data;
-   }catch(Exception $e){
+   } catch (Exception $e) {
       echo ("<h2>Something went wrong!</h2>");
    }
 }
