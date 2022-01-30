@@ -7,9 +7,7 @@ $stylesList = [
     "software",
     "footer"
 ];
-$scriptsListOnStartup = [
-    
-];
+$scriptsListOnStartup = [];
 $scriptsListOnFinish = [
     "navbar",
     "slider"

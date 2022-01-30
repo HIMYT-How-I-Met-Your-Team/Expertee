@@ -67,7 +67,7 @@ function get_after_form()
       </section>");
 }
 
-// // inserts data inside the database
+// inserts data inside the database
 function insert($data)
 {
    if (function_exists('inserter')) {
