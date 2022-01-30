@@ -788,7 +788,8 @@ li {
 
 @media only screen and (min-width: 1024px) {
   #section7homepage {
-    height: 500px;
+    height: 200px;
+    margin-bottom: 200px;
   }
   
   #section7homepage #agency {
@@ -854,7 +855,6 @@ li {
 }
 
 #section8homepage p:nth-child(1) {
-  padding-top: 3vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 36px;
@@ -875,12 +875,11 @@ li {
 
   #section8homepage {
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
   }
   
   #section8homepage p:nth-child(1) {
     font-size: 64px;
-    line-height: 102px;
   }
 
   #section8homepage p:nth-child(2) {
@@ -896,15 +895,14 @@ li {
 @media only screen and (min-width: 1250px) {
 
   #section8homepage {
-    padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
     background: url(../img/Sfondo\ blu\ assistenza\ Big.png) no-repeat center;
     background-size: cover;
   }
   
   #section8homepage p:nth-child(1) {
     font-size: 64px;
-    line-height: 102px;
   }
 
   #section8homepage p:nth-child(2) {
