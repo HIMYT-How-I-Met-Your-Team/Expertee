@@ -47,14 +47,25 @@ body {
   margin-top: 5vh;
 }
 
-#freccetta {
+#freccetta1 {
   width: 100vw;
   padding-bottom: 3vh;
   padding-top: 7vh;
   margin: 0;
 }
 
-#freccetta img {
+#freccetta1 img {
+  width: 30vw;
+}
+
+#freccetta2 {
+  width: 100vw;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  margin: 0;
+}
+
+#freccetta2 img {
   width: 30vw;
 }
 
@@ -128,14 +139,25 @@ body {
       font-size: 18px;
     }
   
-    #freccetta {
+    #freccetta1 {
       width: 100vw;
       padding-bottom: 3vh;
       padding-top: 7vh;
       margin: 0;
     }
     
-    #freccetta img {
+    #freccetta1 img {
+      width: 20vw;
+    }
+
+    #freccetta2 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 7vh;
+      margin: 0;
+    }
+    
+    #freccetta2 img {
       width: 20vw;
     }
   }
@@ -156,21 +178,38 @@ body {
       width: 18%;
     } 
   
-    #freccetta {
+    #freccetta1 {
       width: 100vw;
       padding-bottom: 3vh;
       padding-top: 10vh;
       margin: 0;
     } 
 
+    #freccetta1 img {
+      width: 15vw;
+      position: absolute;
+      left: 43.5vw;
+      bottom: 15vh;
+    }
+
+    #freccetta2 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 10vh;
+      margin: 0;
+    } 
+
+    #freccetta2 img {
+      width: 15vw;
+      position: absolute;
+      left: 43.5vw;
+      bottom: 15vh;
+    }
+
     #section1chisiamo p:nth-child(3) {
         font-size: 36px;
     }
     
-    #freccetta img {
-      width: 15vw;
-      margin-left: 43.5vw;
-    }
   }
   
   @media only screen and (min-width: 1440px) {
@@ -180,7 +219,6 @@ body {
     }
   
     #section1chisiamo p:nth-child(1) {
-      margin-top: 10%;
       font-size: 24px;
     }
   
@@ -198,18 +236,6 @@ body {
     #section1chisiamo .button {
       font-size: 24px;
       width: 18%;
-    }
-  
-    #freccetta {
-      width: 100vw;
-      padding-bottom: 3vh;
-      padding-top: 3vh;
-      margin: 0;
-    }
-    
-    #freccetta img {
-      width: 13vw;
-      margin-left: 43.5vw;
     }
   }
 
@@ -279,17 +305,6 @@ body {
       font-size: 24px;
       line-height: 40px;
     }
-  
-    #freccetta {
-      width: 100vw;
-      padding-bottom: 3vh;
-      padding-top: 7vh;
-      margin: 0;
-    }
-    
-    #section2chisiamo #freccetta img {
-      width: 20vw;
-    }
   }
   
   @media only screen and (min-width: 1055px) {
@@ -298,47 +313,23 @@ body {
       background: url(../img/chisiamo2Big.png) no-repeat;
       background-size: cover;
     }
-  
-    #freccetta {
-      width: 100vw;
-      padding-bottom: 3vh;
-      padding-top: 15vh;
-      margin: 0;
-    } 
 
     #section2chisiamo p:nth-child(3) {
         font-size: 36px;
         line-height: 54px;
     }
     
-    #section2chisiamo #freccetta img {
-      width: 13vw;
-      margin-left: 0;
-    }
   }
   
   @media only screen and (min-width: 1440px) {
   
     #section2chisiamo p:nth-child(1) {
-      margin-top: 10%;
       font-size: 24px;
     }
   
     #section2chisiamo p:nth-child(2) {
       font-size: 64px;
       line-height: 102px;
-    }
-  
-    #freccetta {
-      width: 100vw;
-      padding-bottom: 3vh;
-      padding-top: 15vh;
-      margin: 0;
-    }
-    
-    #section2chisiamo #freccetta img {
-      width: 13vw;
-      margin-left: 0;
     }
   }
 
@@ -502,7 +493,7 @@ body {
 
   #section4chisiamo {
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
   }
   
   #section4chisiamo p:nth-child(1) {
@@ -516,7 +507,7 @@ body {
 
   #section4chisiamo {
     padding-top: 5vh;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
     background-color: rgba(211, 52, 31, 1);
   }
   
