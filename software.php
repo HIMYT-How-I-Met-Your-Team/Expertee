@@ -10,7 +10,8 @@ $stylesList = [
 $scriptsListOnStartup = [];
 $scriptsListOnFinish = [
     "navbar",
-    "slider"
+    "slider",
+    "videoplayer"
 ];
 
 get_header('', array( 'styles' => $stylesList, 'scripts' => $scriptsListOnStartup ));

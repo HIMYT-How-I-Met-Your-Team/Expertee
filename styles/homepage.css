@@ -178,8 +178,11 @@ body {
   } 
   
   #freccetta img {
-    width: 15vw;
-    margin-left: 43.5vw;
+    width: 13vw;
+    position: absolute;
+    left: 43.5vw;
+    bottom: 15vh;
+    margin: 0;
   }
 }
 
@@ -190,7 +193,7 @@ body {
   }
 
   #section1homepage p:nth-child(1) {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 24px;
   }
 
@@ -217,11 +220,7 @@ body {
     padding-top: 3vh;
     margin: 0;
   }
-  
-  #freccetta img {
-    width: 13vw;
-    margin-left: 43.5vw;
-  }
+
 }
 
 /*section 2 start*/
@@ -632,6 +631,10 @@ li {
     display: block;
     width: 100vw;
   }
+
+  #section6homepage > p:nth-child(1) {
+    font-size: 64px;
+  }
 }
 
 /* card section 6*/
@@ -664,7 +667,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   color: black;
-  height: 15vh;
+  height: 150px;
 }
 
 #section6homepage .container div p:nth-child(1) {
@@ -748,7 +751,7 @@ li {
 
 @media only screen and (min-width: 1024px) {
   #section7homepage {
-    height: 300px;
+    height: 500px;
   }
   
   #section7homepage #agency {
@@ -788,6 +791,11 @@ li {
 
   #slider {
     display: none;
+  }
+
+  #section7homepage > p:nth-child(1) {
+    font-size: 64px;
+    padding-bottom: 50px;
   }
 }
 

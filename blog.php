@@ -11,7 +11,8 @@ $scriptsListOnStartup = [
 ];
 $scriptsListOnFinish = [
     "navbar",
-    "slider"
+    "slider",
+    "blog"
 ];
 
 

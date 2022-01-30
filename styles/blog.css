@@ -124,7 +124,7 @@ body {
   }
 
   #section1blog p:nth-child(1) {
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-size: 64px;
     width: 80%;
     line-height: 102px;
@@ -150,7 +150,9 @@ body {
   
   #freccetta img {
     width: 15vw;
-    margin-left: 43.5vw;
+    position: absolute;
+    left: 43.5vw;
+    bottom: 15vh;
   }
 }
 
@@ -225,6 +227,28 @@ div .card-header1 {
   background-size: contain;
 }
 
+.card-header5 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news1Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header6 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news2Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .card-header img {
   display: flex;
   position: absolute;
@@ -246,11 +270,6 @@ div .card-header1 {
   text-align: left;
   font-family: "Roboto", sans-serif;
 }
-
-/* #container2 {
-  margin-top: 100vh;
-  margin-bottom: 5vh;
-} */
 
 .blue {
   color: rgba(14, 114, 186, 1);
@@ -385,6 +404,11 @@ div .card-header1 {
   }
 
   #container2 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  #container3 {
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
