@@ -119,9 +119,41 @@
             </div>
           </div>
         </div>
+
+        <div id="container3" class="container" style="display: none;">
+          <div class="card">
+            <div class="card-header5">
+            </div>
+            <div class="card-body">
+              <span class="blue">2 NOVEMBRE 2021</span><br>
+              <p>
+                Il sistema più efficace per monitorare il budget aziendale
+              </p>
+              <p>
+                Budget aziendale: perché è importante monitorarlo con un software.
+              </p>
+              <p><a href="#">LEGGI DI PIÙ &#62;</a></p>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-header6">
+            </div>
+            <div class="card-body">
+              <span class="blue">5 NOVEMBRE 2021</span><br>
+              <p>
+                Estensione fattura elettronica per i regimi forfettari
+              </p>
+              <p>
+                Estensione dell’obbligo da metà 2022.
+              </p>
+              <p><a href="#">LEGGI DI PIÙ &#62;</a></p>
+            </div>
+          </div>
+        </div>
   
         <div>
-          <p class="button"><a href="/development/pages/blog.html">VEDI ALTRO</a></p>
+          <p class="button" id="seeMore" onclick="seeMore()"><a href="/development/pages/blog.html">VEDI ALTRO</a></p>
         </div>
 
     </section>
@@ -307,6 +339,17 @@
       </div>
     </footer>
 
+    <script>
+      function seeMore() {
+        document.getElementById("seeMore").style.display = "none";
+        let news = document.getElementsByClassName("container");
+
+        for (i = 2; i <= news.length; i++) {
+          news[i].style.display = "flex";
+        }
+      }
+
+    </script>
     <script src="../scripts/navbar.js"></script>
     <script src="../scripts/slider.js"></script>
   </body>
