@@ -68,6 +68,14 @@
 </section>
 
 <section>
+        <div id="section5homepage">
+            <p>Incentivi Industria 4.0</p>
+            <p>Scopri gli <b>incentivi</b> e le agevolazioni 4.0 per la tua azienda!</p>
+            <p class="button"><a href="/development/pages/blog.html">LEGGI IL BLOG</a></p>
+        </div>
+    </section>
+
+<section>
     <div id="section6homepage">
         <p>Cosa dicono di noi</p>
         <!-- slider mobile-->
