@@ -4,7 +4,11 @@
 <?php
     get_head($args['styles'], $args['scripts']);
 ?>
+<!-- meta -->
+<meta name="author" content="gp2" />
+<meta name ="copyright" content="myesperto.gbsweb.online/gp2" />
 <meta name='viewport' content='width=device-width, initial-scale=1' />
+<!-- end of meta -->
 <title><?php wp_title(); ?></title>
 </head>
 <header>
