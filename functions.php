@@ -27,8 +27,6 @@ function get_script($scriptName)
    echo '<script type="text/javascript" src="' . get_stylesheet_directory_uri() . '/scripts/' . $scriptName . '.js"></script>';
 }
 
-
-
 // includes the required CSS styles and JS scripts and initializes the page
 function get_head($styleArray, $scriptArray)
 {
@@ -65,6 +63,16 @@ function get_after_form()
    echo("<!-- end form-->
       </div>
       </section>");
+}
+
+// test 
+function get_data(){
+   try {
+      $data = array('nome' => $_POST['nome'],'cognome' => $_POST['cognome'],'email' => $_POST['email'],'telefono' => $_POST['telefono'],'ragSociale' => $_POST['ragSociale'],'provincia' => $_POST['provincia'],'attivita' => $_POST['attivita'],'messaggio' => $_POST['messaggio']);
+      return $data;
+   }catch(Exception $e){
+      echo ("<h2>Something went wrong!</h2>");
+   }
 }
 
 // inserts data inside the database
