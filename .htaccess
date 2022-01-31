@@ -225,6 +225,28 @@ Require valid-user
     Header set Referrer-Policy "no-referrer-when-downgrade"
 </IfModule>
 # END W3TC Browser Cache
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /gp2
+    RewriteCond %{HTTPS} =on
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{SERVER_PORT} =443
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP:X-Forwarded-Proto} =https [NC]
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond "%{DOCUMENT_ROOT}/gp2/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/gp2/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
 # BEGIN WordPress
 # Le direttive (linee) tra `BEGIN WordPress` e `END WordPress` sono
 # generate dinamicamente, e dovrebbero essere modificate solo tramite i filtri di WordPress.
@@ -240,3 +262,6 @@ RewriteRule . /gp2/index.php [L]
 </IfModule>
 
 # END WordPress
+
+# Disable authentication
+Satisfy any
