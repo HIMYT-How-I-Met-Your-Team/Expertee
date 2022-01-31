@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="it-IT">
 <?php
     get_head($args['styles'], $args['scripts']);
 ?>
+<!-- meta -->
+<meta name="author" content="gp2" />
+<meta name ="copyright" content="myesperto.gbsweb.online/gp2" />
 <meta name='viewport' content='width=device-width, initial-scale=1' />
+<!-- end of meta -->
+<title><?php wp_title(); ?></title>
 </head>
 <header>
     <div id="brand"><a href="#"><img src="<?php echo get_stylesheet_directory_uri();?>/img/Logo_expertee_2.svg" alt="logo expertee"></a></div>

@@ -1,192 +1,130 @@
+<section>
+      <div id="section1incloud">
+        <p>INCLOUD MANUTENZIONE</p>
+        <p>Incloud significa meno requisiti</p>
+        <p>
+          Con <b>Expertee</b> metti solamente i dispositivi e la connessione, il resto lo mettiamo noi.
+        </p>
+        <p class="button"><a href="#section5incloud">RICHIEDI DEMO GRATUTITA</a></p>
+
+        <div id="freccetta">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freccetta.svg" alt="scendi" />
+        </div>
+      </div>
+    </section>
 
     <section>
-        <div id="section1homepage">
-            <p>INCLOUD MANUTENZIONE</p>
-            <p>Incloud significa meno requisiti</p>
-            <p><b>Expertee</b> integra con le sue funzionalità le esigenze specifiche della tua azienda.</p>
-            <p class="button"><a href="">RICHIEDI DEMO GRATUTITA</a></p>
-
-            <div id="freccetta">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/freccetta.png" alt="freccetta">
+      <div id="section2incloud">
+        <p id="funzionalita">Funzionalità Incloud </p>
+        <!--card-->
+        <div class="container">
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/accessibilità.svg" alt="accessibilità" />
+              <p>
+                Accessibile da ogni dispositivo
+              </p>
             </div>
+            <div class="card-body">
+              <p>
+                Puoi accedere a tutte le funzionalità di Expertee da qualsiasi dispositivo allo stesso modo e alle massime prestazioni.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/no perdita dati.svg" alt="no perdita dati" />
+              <p>
+              </br>Zero perdita dati
+              </p>
+            </div>
+            <div class="card-body">
+              <p>
+                I tuoi dati sono al sicuro con Expertee, anche se smarrissi o danneggiassi il tuo dispositivo.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pagamenti.svg" alt="pagamenti" /><br>
+              <p>
+                Paghi per quello che usi
+              </p>
+            </div>
+            <div class="card-body">
+              <p>
+                Risparmia denaro. Puoi scegliere le funzioni di cui necessiti, adatte alla tua attività e al tuo budget.
+              </p>
+            </div>
+          </div>
         </div>
+        
+        <div id="container2" class="container">
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/aggiornamenti.svg" alt="aggiornamenti" />
+              <p>
+                Software Aggiornato
+              </p>
+            </div>
+            <div class="card-body">
+              <p>
+                Dimentica le licenze software: con Expertee lavori sempre con la versione più aggiornata disponibile.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sicurezza.svg" alt="sicurezza" />
+              <p>
+                Alla sicurezza ci pensiamo noi
+              </p>
+            </div>
+            <div class="card-body">
+              <p>
+                Non ti serve personale con particolare esperienza per gestire le problematiche di rete e sicurezza dei dispositivi.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pronto.svg" alt="pronto" /><br>
+              <p>
+              </br>Pronto all’uso
+              </p>
+            </div>
+            <div class="card-body">
+              <p>
+                Per iniziare a utilizzare Expertee ti basta accedere col tuo account, senza tempi morti di avviamento e di installazione.
+              </p>
+            </div>
+          </div>
+        </div>
+
+    <section>
+
+      <div id="section3incloud">
+        <p>
+          EXPERTEE <br />
+          meno requisiti più funzioni
+        </p>
+        <p>
+          Scopri come il software può aiutarti nel gestire la tua attività di
+          manutenzione quotidianamente.
+        </p>
+        <p class="button"><a href="index.php/software">SCOPRI I VANTAGGI</a></p>
+      </div>
     </section>
 
     <section>
-        <div id="section2homepage">
-            <p>Funzionalità Incloud</p>
-            <p>
-
-
-
-            </p>
-        </div>
+      <div id="section4incloud">
+        <p>Expertee: la soluzione adatta alle tue esigenze!</p>
+      </div>
     </section>
 
     <section>
-        <div id="section7homepage">
-            <p>EXPERTEE <br> meno requisiti più funzioni</p>
-            <p>Scopri come il software può aiutarti nel gestire la tua attività di manutenzione quotidianamente.</p>
-            <p class="button"><a href="">SCOPRI I VANTAGGI</a></p>
-        </div>
-    </section>
-
-    <section>
-        <div id="section8homepage">
-            <p>La nostra conoscenza è al tuo servizio!</p>
-        </div>
-    </section>
-
-    <section>
-        <div id="section9homepage">
-            <p>Contattaci per organizzare una demo gratuita</p>
-            <p>Inserisci i tuoi dati nel form e sarai ricontattato</p>
-            <p>Campi obbligatori*</p>
-            <!-- form -->
-
-            <form action="" method="POST" target="blank" id="form">
-                <div>
-                    <input type="text" name="nome" id="nome" placeholder="Nome*" required>
-                    <input type="text" name="cognome" id="cognome" placeholder="Cognome*" required>
-                    <input type="email" name="e-mail" id="email" placeholder="Email*" required>
-                    <input type="text" name="numero" id="numero" placeholder="Telefono">
-                    <input type="text" name="ragione" id="ragione" placeholder="Ragione sociale*" required>
-                    <input type="text" list="province" placeholder="Provincia*" id="provincia" required/>
-                        <select id="attivita">
-                        <option value="none">Tipo di attività*</option>
-                        <option value="Antintrusione">Antintrusione</option>
-                        <option value="Antincendio">Antincendio</option>
-                        <option value="Edile">Edile</option>
-                        <option value="Elettrico">Elettrico</option>
-                        <option value="Elettrico/Impianti speciali">Elettrico/Impianti speciali</option>
-                        <option value="Elevatori">Elevatori</option>
-                        <option value="Idrico-sanitario">Idrico-sanitario</option>
-                        <option value="Impianti speciali">Impianti speciali</option>
-                        <option value="Meccanico/Idrico-sanitario">Meccanico/Idrico-sanitario</option>
-                        <option value="Meccanico/Antincendio">Meccanico/Antincendio</option>
-                        <option value="Meccanico/Elettrico">Meccanico/Elettrico</option>
-                    </select>
-                    <datalist id="province">
-                        <option>Agrigento</option>
-                        <option>Alessandria</option>
-                        <option>Ancona</option>
-                        <option>Aosta</option>
-                        <option>Arezzo</option>
-                        <option>Ascoli Piceno</option>
-                        <option>Asti</option>
-                        <option>Avellino</option>
-                        <option>Bari</option>
-                        <option>Barletta-Andria-Trani</option>
-                        <option>Belluno</option>
-                        <option>Benevento</option>
-                        <option>Bergamo</option>
-                        <option>Biella</option>
-                        <option>Bologna</option>
-                        <option>Bolzano</option>
-                        <option>Brescia</option>
-                        <option>Brindisi</option>
-                        <option>Cagliari</option>
-                        <option>Caltanissetta</option>
-                        <option>Campobasso</option>
-                        <option>Carbonia-iglesias</option>
-                        <option>Caserta</option>
-                        <option>Catania</option>
-                        <option>Catanzaro</option>
-                        <option>Chieti</option>
-                        <option>Como</option>
-                        <option>Cosenza</option>
-                        <option>Cremona</option>
-                        <option>Crotone</option>
-                        <option>Cuneo</option>
-                        <option>Enna</option>
-                        <option>Fermo</option>
-                        <option>Ferrara</option>
-                        <option>Firenze</option>
-                        <option>Foggia</option>
-                        <option>Forl&igrave;-Cesena</option>
-                        <option>Frosinone</option>
-                        <option>Genova</option>
-                        <option>Gorizia</option>
-                        <option>Grosseto</option>
-                        <option>Imperia</option>
-                        <option>Isernia</option>
-                        <option>La spezia</option>
-                        <option>L'aquila</option>
-                        <option>Latina</option>
-                        <option>Lecce</option>
-                        <option>Lecco</option>
-                        <option>Livorno</option>
-                        <option>Lodi</option>
-                        <option>Lucca</option>
-                        <option>Macerata</option>
-                        <option>Mantova</option>
-                        <option>Massa-Carrara</option>
-                        <option>Matera</option>
-                        <option>Medio Campidano</option>
-                        <option>Messina</option>
-                        <option>Milano</option>
-                        <option>Modena</option>
-                        <option>Monza Brianza</option>
-                        <option>Napoli</option>
-                        <option>Novara</option>
-                        <option>Nuoro</option>
-                        <option>Ogliastra</option>
-                        <option>Olbia-Tempio</option>
-                        <option>Oristano</option>
-                        <option>Padova</option>
-                        <option>Palermo</option>
-                        <option>Parma</option>
-                        <option>Pavia</option>
-                        <option>Perugia</option>
-                        <option>Pesaro e Urbino</option>
-                        <option>Pescara</option>
-                        <option>Piacenza</option>
-                        <option>Pisa</option>
-                        <option>Pistoia</option>
-                        <option>Pordenone</option>
-                        <option>Potenza</option>
-                        <option>Prato</option>
-                        <option>Ragusa</option>
-                        <option>Ravenna</option>
-                        <option>Reggio Calabria</option>
-                        <option>Reggio Emilia</option>
-                        <option>Rieti</option>
-                        <option>Rimini</option>
-                        <option>Roma</option>
-                        <option>Rovigo</option>
-                        <option>Salerno</option>
-                        <option>Sassari</option>
-                        <option>Savona</option>
-                        <option>Siena</option>
-                        <option>Siracusa</option>
-                        <option>Sondrio</option>
-                        <option>Taranto</option>
-                        <option>Teramo</option>
-                        <option>Terni</option>
-                        <option>Torino</option>
-                        <option>Trapani</option>
-                        <option>Trento</option>
-                        <option>Treviso</option>
-                        <option>Trieste</option>
-                        <option>Udine</option>
-                        <option>Varese</option>
-                        <option>Venezia</option>
-                        <option>Verbano-Cusio-Ossola</option>
-                        <option>Vercelli</option>
-                        <option>Verona</option>
-                        <option>Vibo valentia</option>
-                        <option>Vicenza</option>
-                        <option>Viterbo</option>
-                    </datalist>
-                </div>
-                <textarea name="messaggio" id="messaggio">Messaggio</textarea>
-
-                <input type="checkbox" name="privacy" id="btnprivacy" required/>
-                <p id="privacy">Accetto i termini e <br> l’informativa sulla privacy</p>
-
-                <button type="submit" id="submit" class="button" disabled>CONTATTACI</button>
-            </form>
-            <!-- end form-->
-        </div>
-    </section>
-
+      <div id="section5incloud">
+        <p>Contattaci per organizzare una demo gratuita</p>
+        <p>Inserisci i tuoi dati nel form e sarai ricontattato</p>
+        <p>Campi obbligatori*</p>
+<!-- form -->
