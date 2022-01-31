@@ -1,0 +1,685 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/*all buttons*/
+.button {
+  background: rgba(211, 52, 31, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button a:hover {
+  text-decoration: none;
+}
+
+/* break img  & breakline & freccette */
+
+#freccetta {
+  width: 100vw;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  margin: 0;
+}
+
+#freccetta img {
+  width: 30vw;
+}
+
+/*section 1 start*/
+#section1blog {
+  width: 100vw;
+  height: calc(100vh - 12.31vh);
+  top: 12.31vh;
+  left: 0;
+  background: url(../img/shutterstock.png) no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.72);
+  position: absolute;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section1blog > * {
+    text-align: center;
+    color: white;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+#section1blog p:nth-child(1) {
+  padding-top: 20vh;
+  margin-top: 3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+#section1blog p:nth-child(2) {
+  margin-top: 3vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#section1blog p:nth-child(3) {
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  #section1blog p:nth-child(1) {
+    padding-top: 15vh;
+    font-size: 64px;
+    line-height: 102px;
+  }
+
+  #section1blog p:nth-child(2) {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  #section1blog .button {
+    font-size: 24px;
+  }
+
+  #freccetta {
+    width: 100vw;
+    padding-bottom: 3vh;
+    padding-top: 0;
+    margin: 0;
+  }
+  
+  #freccetta img {
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+
+  #section1blog > *:not(.button) {
+    text-align: left;
+  }
+
+  #section1blog {
+    background: url(../img/shutterstockBig.png) no-repeat;
+    background-size: cover;
+  }
+
+  #section1blog p:nth-child(1) {
+    padding-top: 15vh;
+    font-size: 64px;
+    width: 80%;
+    line-height: 102px;
+  }
+
+  #section1blog p:nth-child(2) {
+    font-size: 36px;
+    width: 60%;
+    line-height: 54px;
+  }
+
+  #section1blog .button {
+    font-size: 24px;
+    width: 18%;
+  }
+
+  #freccetta {
+    width: 100vw;
+    padding-bottom: 3vh;
+    padding-top: 10vh;
+    margin: 0;
+  } 
+  
+  #freccetta img {
+    width: 15vw;
+    position: absolute;
+    left: 43.5vw;
+    bottom: 15vh;
+  }
+}
+
+/* section 2 start */
+
+#funzionalita {
+  margin-top: 105vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 5vh;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  width: 300px;
+  margin-left: calc(50vw - 150px);
+  margin-bottom: 30px;
+}
+
+div .card-header1 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news1Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header2 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news2Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header3 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news3Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header4 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news4Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header5 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news1Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header6 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  background-image: url("../img/news2Big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-header img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 65%;
+}
+
+.card-body p {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.blue {
+  color: rgba(14, 114, 186, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card-body p:nth-child(3) {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.card-body p:nth-child(4) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  height: 5vh;
+}
+
+.card-body p:nth-child(5) {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  margin: 0;
+}
+
+/* .card-body a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+} */
+
+.button {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#section2blog .button {
+  font-size: 16px;
+  font-weight: 700;
+  width: 35%;
+  margin-left: 35%;
+  background-color: rgba(14, 114, 186, 1);
+}
+
+
+@media only screen and (min-width: 768px) {
+  #funzionalita {
+    margin-top: 105vh;
+    margin-left: 5vw;
+    text-align: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 5vh;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    position: relative;
+    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 500px;
+    height: auto;
+    margin-left: calc(100vw / 6 - 1000px / 6);
+    margin-right: calc(100vw / 6 - 1000px / 6);
+  }
+
+  div .card-header1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    background-image: url("../img/news1Big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-header2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    background-image: url("../img/news2Big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-header3 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    background-image: url("../img/news3Big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-header4 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    background-image: url("../img/news4Big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  #container2 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  #container3 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .blue {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .card-body p:nth-child(3) {
+    margin: 0;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+
+  .card-body p:nth-child(4) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    height: 5vh;
+  }
+
+  .card-body p:nth-child(5) {
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  /* .card-body a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+} */
+
+#section2blog .button {
+  font-size: 24px;
+  width: 18%;
+  margin-left: 41%;
+  background-color: rgba(14, 114, 186, 1);
+}
+
+}
+
+@media only screen and (min-width: 1250px) {
+  .noselected {
+    display: block;
+  }
+}
+
+
+/*section 3 start*/
+
+#section3blog {
+  margin-top: 10vh;
+  width: 100vw;
+  background-color: rgba(211, 52, 31, 1);
+  padding-bottom: 5vh;
+}
+
+#section3blog > * {
+  text-align: center;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: white;
+}
+
+#section3blog p:nth-child(1) {
+  padding-top: 3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #section3blog {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+  
+  #section3blog p:nth-child(1) {
+    font-size: 64px;
+    line-height: 102px;
+  }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+  #section3blog {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    background-color: rgba(211, 52, 31, 1);
+  }
+  
+  #section3blog p:nth-child(1) {
+    font-size: 64px;
+    line-height: 102px;
+  }
+}
+
+/* section 4 start */
+#section4blog {
+    background-color: #1D1D1B;
+    padding: 5vh 10vw;
+  }
+  
+  #section4blog p:first-child{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 3vh;
+  }
+  
+  #section4blog p:nth-child(2) {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  
+  #section4blog p:nth-child(3) {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 1vh;
+  }
+  
+  #form *:not(#submit, #messaggio, #btnprivacy, #privacy) {
+    width: 100%;
+    margin-bottom: 1.5vh;
+    padding: 7px 5px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  
+  #messaggio {
+    height: 10vh;
+    width: 100%;
+    padding: 7px 5px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  
+  #form div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  #btnprivacy {
+    height: 30px;
+    width: 25px !important;
+    margin-right: 2vw;
+    margin-top: 0.5vh;
+    float: left;
+  }
+  
+  #privacy {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    width: 60% !important;
+    color: white !important;
+    text-decoration: underline;
+    line-height: 15px;
+    margin-top: 13px;
+  }
+  
+  #submit {
+    margin-top: 5vh;
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1250px) {
+    
+    #section4blog {
+      height: 650px;
+      padding-left: 5vw;
+      padding-right: 5vw !important;
+    }
+    
+    #section4blog p:first-child{
+      font-size: 64px;
+      text-align: left;
+      width: 80vw;
+    }
+  
+    #section4blog p:nth-child(2) {
+      font-size: 36px;
+      text-align: left;
+      float: left;
+      width: 20%;
+      padding-top: 5vh;
+    }
+  
+    #section4blog p:nth-child(3) {
+      font-size: 14px;
+      float: right;
+      width: 80%;
+      text-align: left;
+      padding-left: 2vw;
+    }
+  
+    #form {
+      float: right;
+      width: 80%;
+      height: 45%;
+      padding-left: 2vw;
+    }
+  
+    #form div {
+      width: 55%;
+      height: 45%;
+    }
+  
+    #form *:not(#submit, #messaggio, #btnprivacy, #privacy) {
+      width: 47.5%;
+      height: 55px;
+      float: left;
+      margin-right: 2.5%;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    #messaggio {
+      width: 52.5% !important;
+      margin: 0 !important;
+      float: right !important;
+      height: 250px;
+      font-size: 24px;
+      padding: 7px 5px;
+    }
+  
+    #attivita {
+      width: 97.5% !important;
+    }
+  
+    #btnprivacy {
+      width: 2.3vh !important;
+      height: 2.3vh;
+      margin-right: 0.5vw !important;
+      margin-top: 230px;
+    }
+  
+    #privacy {
+      margin-top: 290px;
+      font-size: 24px;
+    }
+  
+    #form br {
+      display: none;
+    }
+  
+    #section4blog .button {
+      font-size: 24px;
+      width: 18%;
+      float: right;
+      margin-top: -35px;
+    }
+  }

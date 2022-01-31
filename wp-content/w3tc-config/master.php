@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "2.2.0",
+    "version": "2.2.1",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -9,7 +9,7 @@
     "dbcache.configuration_overloaded": false,
     "dbcache.debug": false,
     "dbcache.debug_purge": false,
-    "dbcache.enabled": false,
+    "dbcache.enabled": true,
     "dbcache.engine": "file",
     "dbcache.file.gc": 3600,
     "dbcache.file.locking": false,
@@ -59,7 +59,7 @@
         "\\bfound_rows\\(\\)"
     ],
     "docroot_fix.enable": false,
-    "lazyload.enabled": true,
+    "lazyload.enabled": false,
     "lazyload.threshold": "",
     "lazyload.process_img": true,
     "lazyload.process_background": true,
@@ -92,7 +92,7 @@
     ],
     "lazyload.embed_method": "async_head",
     "objectcache.configuration_overloaded": false,
-    "objectcache.enabled": false,
+    "objectcache.enabled": true,
     "objectcache.debug": false,
     "objectcache.debug_purge": false,
     "objectcache.enabled_for_wp_admin": false,
@@ -134,7 +134,7 @@
     "objectcache.lifetime": 180,
     "objectcache.purge.all": false,
     "pgcache.configuration_overloaded": false,
-    "pgcache.enabled": false,
+    "pgcache.enabled": true,
     "pgcache.comment_cookie_ttl": 1800,
     "pgcache.debug": false,
     "pgcache.debug_purge": false,
@@ -264,8 +264,8 @@
     "stats.access_log.format": "%h %l %u %t \\\"%r\\\" %>s %O \\\"%{Referer}i\\\" \\\"%{User-Agent}i\\\"",
     "stats.access_log.webserver": "apache",
     "minify.configuration_overloaded": false,
-    "minify.enabled": false,
-    "minify.auto": true,
+    "minify.enabled": true,
+    "minify.auto": false,
     "minify.debug": false,
     "minify.engine": "file",
     "minify.error.notification": "",
@@ -291,11 +291,11 @@
     "minify.symlinks": [],
     "minify.lifetime": 86400,
     "minify.upload": true,
-    "minify.html.enable": false,
+    "minify.html.enable": true,
     "minify.html.engine": "html",
     "minify.html.reject.feed": false,
-    "minify.html.inline.css": false,
-    "minify.html.inline.js": false,
+    "minify.html.inline.css": true,
+    "minify.html.inline.js": true,
     "minify.html.strip.crlf": false,
     "minify.html.comments.ignore": [
         "google_ad_",
@@ -304,14 +304,14 @@
     ],
     "minify.css.enable": true,
     "minify.css.engine": "css",
-    "minify.css.method": "both",
+    "minify.css.method": "minify",
     "minify.css.http2push": false,
     "minify.css.strip.comments": false,
     "minify.css.strip.crlf": false,
     "minify.css.embed": false,
-    "minify.css.imports": "",
+    "minify.css.imports": "process",
     "minify.css.groups": [],
-    "minify.js.http2push": false,
+    "minify.js.http2push": true,
     "minify.js.enable": true,
     "minify.js.engine": "js",
     "minify.js.method": "both",
@@ -358,10 +358,18 @@
     "minify.htmltidy.options.hide-comments": true,
     "minify.htmltidy.options.wrap": 0,
     "minify.reject.logged": false,
-    "minify.reject.ua": [],
-    "minify.reject.uri": [],
-    "minify.reject.files.js": [],
-    "minify.reject.files.css": [],
+    "minify.reject.ua": [
+        ""
+    ],
+    "minify.reject.uri": [
+        ""
+    ],
+    "minify.reject.files.js": [
+        ""
+    ],
+    "minify.reject.files.css": [
+        ""
+    ],
     "minify.cache.files": [
         ""
     ],
@@ -537,7 +545,9 @@
     "varnish.configuration_overloaded": false,
     "varnish.enabled": false,
     "varnish.debug": false,
-    "varnish.servers": [],
+    "varnish.servers": [
+        ""
+    ],
     "browsercache.configuration_overloaded": false,
     "browsercache.enabled": true,
     "browsercache.rewrite": false,
@@ -900,5 +910,12 @@
         "compression": "lossy",
         "auto": "enabled"
     },
-    "lazyload_process_background": true
+    "lazyload_process_background": true,
+    "fragmentcache": {
+        "engine": ""
+    },
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
+    }
 }

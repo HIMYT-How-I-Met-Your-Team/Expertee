@@ -1,16 +1,27 @@
 <?php 
 /* Template Name: Home */ 
-$bodyName = "test";
+$bodyName = "homepage";
 $stylesList = [
-    "navbar"
+    "navbar",
+    "homepage",
+    "footer"
 ];
-$scriptsList = [
-    ["name" => "navbar", "onStartup" => true]
+$scriptsListOnStartup = [
+    
+];
+$scriptsListOnFinish = [
+    "navbar",
+    "slider"
 ];
 
-get_head($stylesList, $scriptsList);
-get_header();
+
+get_header('', array( 'styles' => $stylesList, 'scripts' => $scriptsListOnStartup ));
 get_body($bodyName);
-get_footer();
+get_form();
+get_after_form();
+get_footer('', array( 'scripts' => $scriptsListOnFinish));
+
+insert(get_data($_POST));
+
 ?>
 

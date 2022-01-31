@@ -1,0 +1,686 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/*all buttons*/
+.button {
+  background: rgba(211, 52, 31, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button a:hover {
+  text-decoration: none;
+}
+
+/* break img  & breakline & freccette */
+#breakimg-mobile1 {
+  width: 100vw;
+  padding-bottom: 3vh;
+}
+
+#breakimg-desktop1 {
+  display: none;
+}
+
+#breakimg-mobile1 img{
+  width: 100vw;
+  filter: brightness(69%);
+}
+
+#breakline {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(47, 47, 47, 0.17);
+  margin-top: 5vh;
+}
+
+#freccetta1 {
+  width: 100vw;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  margin: 0;
+}
+
+#freccetta1 img {
+  width: 30vw;
+}
+
+#freccetta2 {
+  width: 100vw;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  margin: 0;
+}
+
+#freccetta2 img {
+  width: 30vw;
+}
+
+/*section 1 start*/
+#section1chisiamo {
+    width: 100vw;
+    height: calc(100vh - 12.31vh);
+    top: 12.31vh;
+    left: 0;
+    background: url(../img/chisiamo1.png) no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.72);
+    position: absolute;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #section1chisiamo > * {
+      text-align: center;
+      color: white;
+      width: 80vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+  }
+  
+  #section1chisiamo p:nth-child(1) {
+    margin-top: 20vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  #section1chisiamo p:nth-child(2) {
+    margin-top: 3vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  #section1chisiamo p:nth-child(3) {
+    margin-top: 3vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #section1chisiamo p:nth-child(4) {
+    margin-top: 5vh;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+    #section1chisiamo p:nth-child(1) {
+      font-size: 16px;
+      margin-top: 10vh;
+    }
+  
+    #section1chisiamo p:nth-child(2) {
+      font-size: 56px;
+      line-height: 64px;
+    }
+  
+    #section1chisiamo p:nth-child(3) {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  
+    #section1chisiamo .button {
+      font-size: 18px;
+    }
+  
+    #freccetta1 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 7vh;
+      margin: 0;
+    }
+    
+    #freccetta1 img {
+      width: 20vw;
+    }
+
+    #freccetta2 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 7vh;
+      margin: 0;
+    }
+    
+    #freccetta2 img {
+      width: 20vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1055px) {
+  
+    #section1chisiamo > *:not(.button) {
+      text-align: left;
+    }
+  
+    #section1chisiamo {
+      background: url(../img/chisiamo1Big.png) no-repeat;
+      background-size: cover;
+    }
+  
+    #section1chisiamo .button {
+      font-size: 24px;
+      width: 18%;
+    } 
+  
+    #freccetta1 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 10vh;
+      margin: 0;
+    } 
+
+    #freccetta1 img {
+      width: 15vw;
+      position: absolute;
+      left: 43.5vw;
+      bottom: 15vh;
+    }
+
+    #freccetta2 {
+      width: 100vw;
+      padding-bottom: 3vh;
+      padding-top: 10vh;
+      margin: 0;
+    } 
+
+    #freccetta2 img {
+      width: 15vw;
+      position: absolute;
+      left: 43.5vw;
+      bottom: 15vh;
+    }
+
+    #section1chisiamo p:nth-child(3) {
+        font-size: 36px;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1440px) {
+  
+    #section1chisiamo > *:not(.button) {
+      text-align: left;
+    }
+  
+    #section1chisiamo p:nth-child(1) {
+      font-size: 24px;
+    }
+  
+    #section1chisiamo p:nth-child(2) {
+      font-size: 64px;
+      width: 80%;
+      line-height: 102px;
+    }
+  
+    #section1chisiamo p:nth-child(3) {
+      width: 60%;
+      line-height: 54px;
+    }
+  
+    #section1chisiamo .button {
+      font-size: 24px;
+      width: 18%;
+    }
+  }
+
+/*section 2 start*/
+#section2chisiamo {
+    width: 100vw;
+    height: 100vh;
+    top: 12.31vh;
+    left: 0;
+    background: url(../img/chisiamo2.png) no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.72);
+    position: absolute;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: calc(100vh - 12.31vh);
+  }
+  
+  #section2chisiamo > * {
+      text-align: center;
+      color: white;
+      width: 80vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+  }
+  
+  #section2chisiamo p:nth-child(1) {
+    margin-top: 20vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  #section2chisiamo p:nth-child(2) {
+    margin-top: 3vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  #section2chisiamo p:nth-child(3) {
+    margin-top: 3vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #section2chisiamo p:nth-child(4) {
+    margin-top: 5vh;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+    #section2chisiamo p:nth-child(1) {
+      font-size: 16px;
+      margin-top: 10vh;
+    }
+  
+    #section2chisiamo p:nth-child(2) {
+      font-size: 56px;
+      line-height: 64px;
+    }
+  
+    #section2chisiamo p:nth-child(3) {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 1055px) {
+  
+    #section2chisiamo {
+      background: url(../img/chisiamo2Big.png) no-repeat;
+      background-size: cover;
+    }
+
+    #section2chisiamo p:nth-child(3) {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1440px) {
+  
+    #section2chisiamo p:nth-child(1) {
+      font-size: 24px;
+    }
+  
+    #section2chisiamo p:nth-child(2) {
+      font-size: 64px;
+      line-height: 102px;
+    }
+  }
+
+/* section 3 start*/
+#section3chisiamo{
+  background-color: rgba(29, 29, 27, 1);
+  color: white;
+  margin-top: 200vh;
+}
+
+#section3chisiamo > * {
+  text-align: left;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#section3chisiamo p:nth-child(1) {
+  padding-top: 3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+}
+
+#section3chisiamo p:nth-child(2) {
+  margin-top: 3vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5vh;
+}
+
+#positiondesktop {
+    display: none;
+}
+
+#positionmobile {
+    display: inline;
+}
+
+#positionmobile iframe {
+    margin-bottom: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #section3chisiamo p:nth-child(1) {
+    font-size: 64px;
+    line-height: 78px;
+  }
+
+  #section3chisiamo p:nth-child(2) {
+    font-size: 28px;
+  }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+  #section3chisiamo  > *:not(.button) {
+    width: 100%;
+    margin: 0;
+  }
+
+  #breakimg-mobile1 {
+    display: none;
+  }
+
+  #breakimg-desktop1 {
+    display: inline;
+    float: right;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7vh;
+    width: 45vw;
+  }
+
+  #breakimg-desktop1 img{
+    width: 45vw;
+    filter: brightness(74%);
+  }
+
+  #section3chisiamo p:nth-child(1) {
+    font-size: 52px;
+    line-height: 64px;
+    padding-top: 10vh;
+    margin-left: 5vw;
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+
+  #section3chisiamo p:nth-child(2) {
+    font-size: 28px;
+    line-height: 36px;
+    width: 50%;
+    float: left;
+    margin-left: 5vw;
+  }
+
+  #positionmobile {
+      display: none;
+  }
+
+  #positiondesktop {
+      display: inline;
+  }
+
+  #positiondesktop iframe {
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  #section3chisiamo {
+    padding-bottom: 10vh;
+  }
+
+  #section3chisiamo p:nth-child(1) {
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 10vh;
+  }
+
+  #section3chisiamo p:nth-child(2) {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+}
+
+/*section 4 start*/
+#section4chisiamo {
+  width: 100vw;
+  background-color: rgba(211, 52, 31, 1);
+  padding-bottom: 3vh;
+}
+
+#section4chisiamo > * {
+  text-align: center;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: white;
+}
+
+#section4chisiamo p:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #section4chisiamo {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  
+  #section4chisiamo p:nth-child(1) {
+    font-size: 64px;
+    line-height: 102px;
+  }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+  #section4chisiamo {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgba(211, 52, 31, 1);
+  }
+  
+  #section4chisiamo p:nth-child(1) {
+    font-size: 64px;
+    line-height: 102px;
+  }
+}
+
+/* section 5 start */
+#section5chisiamo {
+  background-color: #1D1D1B;
+  padding: 5vh 10vw;
+}
+
+#section5chisiamo p:first-child{
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 3vh;
+}
+
+#section5chisiamo p:nth-child(2) {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+#section5chisiamo p:nth-child(3) {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 1vh;
+}
+
+#form *:not(#submit, #messaggio, #btnprivacy, #privacy) {
+  width: 100%;
+  margin-bottom: 1.5vh;
+  padding: 7px 5px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+#messaggio {
+  height: 10vh;
+  width: 100%;
+  padding: 7px 5px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+#form div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#btnprivacy {
+  height: 30px;
+  width: 25px !important;
+  margin-right: 2vw;
+  margin-top: 0.5vh;
+  float: left;
+}
+
+#privacy {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  width: 60% !important;
+  color: white !important;
+  text-decoration: underline;
+  line-height: 15px;
+  margin-top: 13px;
+}
+
+#submit {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1250px) {
+  
+  #section5chisiamo {
+    height: 650px;
+    padding-left: 5vw;
+    padding-right: 5vw !important;
+  }
+  
+  #section5chisiamo p:first-child{
+    font-size: 64px;
+    text-align: left;
+    width: 80vw;
+  }
+
+  #section5chisiamo p:nth-child(2) {
+    font-size: 36px;
+    text-align: left;
+    float: left;
+    width: 20%;
+    padding-top: 5vh;
+  }
+
+  #section5chisiamo p:nth-child(3) {
+    font-size: 14px;
+    float: right;
+    width: 80%;
+    text-align: left;
+    padding-left: 2vw;
+  }
+
+  #form {
+    float: right;
+    width: 80%;
+    height: 45%;
+    padding-left: 2vw;
+  }
+
+  #form div {
+    width: 55%;
+    height: 45%;
+  }
+
+  #form *:not(#submit, #messaggio, #btnprivacy, #privacy) {
+    width: 47.5%;
+    height: 55px;
+    float: left;
+    margin-right: 2.5%;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #messaggio {
+    width: 52.5% !important;
+    margin: 0 !important;
+    float: right !important;
+    height: 250px;
+    font-size: 24px;
+    padding: 7px 5px;
+  }
+
+  #attivita {
+    width: 97.5% !important;
+  }
+
+  #btnprivacy {
+    width: 2.3vh !important;
+    height: 2.3vh;
+    margin-right: 0.5vw !important;
+    margin-top: 230px;
+  }
+
+  #privacy {
+    margin-top: 290px;
+    font-size: 24px;
+  }
+
+  #form br {
+    display: none;
+  }
+
+  #section5chisiamo .button {
+    font-size: 24px;
+    width: 18%;
+    float: right;
+    margin-top: -35px;
+  }
+}

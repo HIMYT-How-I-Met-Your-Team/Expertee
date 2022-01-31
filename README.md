@@ -1,5 +1,5 @@
 # myEspertoWeb
-![](https://img.shields.io/badge/Version-0.1.0%20(Early%20Development)-3a579a)<br>
+![](https://img.shields.io/badge/Version-1.0.0%20(Early%20Development)-3a579a)<br>
 
 ## Titolo progetto: MyESPERTO Web
 Azienda ospitante: ICP Informatica<br>
